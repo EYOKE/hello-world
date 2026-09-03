@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="ChatGPT">
   <diagram id="pet-flow" name="宠物差评外呼流程图">
-    <mxGraphModel dx="1846" dy="1232" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1700" pageHeight="950" math="0" shadow="0">
+    <mxGraphModel dx="1412" dy="942" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1700" pageHeight="950" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -379,7 +379,7 @@
         <mxCell id="U4w4xmr_5lqEDP4Q2Ks9-40" edge="1" parent="1" source="U4w4xmr_5lqEDP4Q2Ks9-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="p1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="U4w4xmr_5lqEDP4Q2Ks9-41" connectable="0" parent="U4w4xmr_5lqEDP4Q2Ks9-40" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Y" vertex="1">
+        <mxCell id="U4w4xmr_5lqEDP4Q2Ks9-41" connectable="0" parent="U4w4xmr_5lqEDP4Q2Ks9-40" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="N" vertex="1">
           <mxGeometry relative="1" x="-0.347" y="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
