@@ -1,0 +1,325 @@
+<mxfile host="app.diagrams.net" agent="ChatGPT" compressed="false">
+  <diagram id="ride-flow" name="Page-1">
+    <mxGraphModel dx="903" dy="616" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1080" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="legend1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E2F0D9;strokeColor=#93C47D;strokeWidth=1.5;fontFamily=PingFang SC;fontSize=16;" value="取消场景" vertex="1">
+          <mxGeometry height="25" width="86" x="264" y="14" as="geometry" />
+        </mxCell>
+        <mxCell id="legend2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E4D7F1;strokeColor=#B4A7D6;strokeWidth=1.5;fontFamily=PingFang SC;fontSize=16;" value="费用场景" vertex="1">
+          <mxGeometry height="25" width="86" x="350" y="14" as="geometry" />
+        </mxCell>
+        <mxCell id="legend3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#E5A23C;strokeWidth=1.5;fontFamily=PingFang SC;fontSize=16;" value="服务场景" vertex="1">
+          <mxGeometry height="25" width="86" x="436" y="14" as="geometry" />
+        </mxCell>
+        <mxCell id="header_arrow" edge="1" parent="1" style="edgeStyle=none;html=1;rounded=0;strokeWidth=1.5;strokeColor=#222222;startArrow=classic;startFill=1;endArrow=classic;endFill=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="215" y="148" as="sourcePoint" />
+            <mxPoint x="1718" y="148" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="header_title" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=none;fillColor=none;fontStyle=1;fontFamily=PingFang SC;fontSize=16;" value="司乘履约-接驾流程" vertex="1">
+          <mxGeometry height="40" width="250" x="791" y="107" as="geometry" />
+        </mxCell>
+        <mxCell id="passenger_actor" parent="1" style="shape=umlActor;html=1;strokeColor=#333333;fillColor=#FFFFFF;" value="" vertex="1">
+          <mxGeometry height="70" width="52" x="105" y="332" as="geometry" />
+        </mxCell>
+        <mxCell id="passenger_label" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=none;fillColor=none;fontFamily=PingFang SC;fontSize=16;" value="乘客" vertex="1">
+          <mxGeometry height="28" width="65" x="99" y="401" as="geometry" />
+        </mxCell>
+        <mxCell id="driver_actor" parent="1" style="shape=umlActor;html=1;strokeColor=#333333;fillColor=#666666;" value="" vertex="1">
+          <mxGeometry height="70" width="52" x="105" y="588" as="geometry" />
+        </mxCell>
+        <mxCell id="driver_label" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=none;fillColor=none;fontFamily=PingFang SC;fontSize=16;" value="司机" vertex="1">
+          <mxGeometry height="28" width="65" x="99" y="656" as="geometry" />
+        </mxCell>
+        <mxCell id="order_label" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=none;fillColor=none;fontFamily=PingFang SC;fontSize=16;" value="订单流程" vertex="1">
+          <mxGeometry height="36" width="88" x="78" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="timeline" edge="1" parent="1" style="edgeStyle=none;html=1;rounded=0;strokeWidth=1.5;strokeColor=#666666;endArrow=none;startArrow=none;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="205" y="499" as="sourcePoint" />
+            <mxPoint x="1724" y="499" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p1r" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#FFFFFF;strokeColor=#FF1F1F;strokeWidth=3;" value="" vertex="1">
+          <mxGeometry height="17" width="17" x="271" y="284" as="geometry" />
+        </mxCell>
+        <mxCell id="p1t" parent="1" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=none;fillColor=none;fontFamily=PingFang SC;fontSize=16;" value="拦截（降发生）" vertex="1">
+          <mxGeometry height="38" width="150" x="291" y="272" as="geometry" />
+        </mxCell>
+        <mxCell id="p1b" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E2F0D9;strokeColor=#93C47D;strokeWidth=1.5;fontFamily=PingFang SC;fontSize=16;" value="高频取消拦截" vertex="1">
+          <mxGeometry height="39" width="112" x="276" y="316" as="geometry" />
+        </mxCell>
+        <mxCell id="p1d" edge="1" parent="1" style="edgeStyle=none;html=1;rounded=0;dashed=1;dashPattern=3 3;strokeWidth=1.5;strokeColor=#666666;endArrow=none;startArrow=none;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="p1l">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="332" y="355" as="sourcePoint" />
+            <mxPoint x="332" y="471" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p1l" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=none;fillColor=none;fontFamily=PingFang SC;fontSize=16;" value="发单" vertex="1">
+          <mxGeometry height="30" width="74" x="296" y="445" as="geometry" />
+        </mxCell>
+        <mxCell id="p1c" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#FFFFFF;strokeColor=#666666;strokeWidth=1.7;" value="" vertex="1">
+          <mxGeometry height="13" width="13" x="326" y="486" as="geometry" />
+        </mxCell>
+        <mxCell id="p2r" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#FFFFFF;strokeColor=#FF1F1F;strokeWidth=3;" value="" vertex="1">
+          <mxGeometry height="17" width="17" x="550" y="284" as="geometry" />
+        </mxCell>
+        <mxCell id="p2t" parent="1" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=none;fillColor=none;fontFamily=PingFang SC;fontSize=16;" value="干预（降发生）" vertex="1">
+          <mxGeometry height="38" width="150" x="570" y="272" as="geometry" />
+        </mxCell>
+        <mxCell id="p2b" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E2F0D9;strokeColor=#93C47D;strokeWidth=1.5;fontFamily=PingFang SC;fontSize=16;" value="超时等待服务" vertex="1">
+          <mxGeometry height="39" width="112" x="550" y="316" as="geometry" />
+        </mxCell>
+        <mxCell id="p2d" edge="1" parent="1" style="edgeStyle=none;html=1;rounded=0;dashed=1;dashPattern=3 3;strokeWidth=1.5;strokeColor=#666666;endArrow=none;startArrow=none;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="p2l">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="606" y="355" as="sourcePoint" />
+            <mxPoint x="606" y="475" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p2l" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=none;fillColor=none;fontFamily=PingFang SC;fontSize=16;" value="司机接单" vertex="1">
+          <mxGeometry height="30" width="82" x="565" y="445" as="geometry" />
+        </mxCell>
+        <mxCell id="p2c1" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#FFFFFF;strokeColor=#666666;strokeWidth=1.7;" value="" vertex="1">
+          <mxGeometry height="13" width="13" x="600" y="486" as="geometry" />
+        </mxCell>
+        <mxCell id="p2c2" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#FFFFFF;strokeColor=#666666;strokeWidth=1.7;" value="" vertex="1">
+          <mxGeometry height="13" width="13" x="600" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="p3r" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#FFFFFF;strokeColor=#FF1F1F;strokeWidth=3;" value="" vertex="1">
+          <mxGeometry height="17" width="17" x="886" y="284" as="geometry" />
+        </mxCell>
+        <mxCell id="p3t" parent="1" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=none;fillColor=none;fontFamily=PingFang SC;fontSize=16;" value="干预（降发生）" vertex="1">
+          <mxGeometry height="38" width="150" x="906" y="272" as="geometry" />
+        </mxCell>
+        <mxCell id="p3b" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E2F0D9;strokeColor=#93C47D;strokeWidth=1.5;fontFamily=PingFang SC;fontSize=16;" value="换车优先派弹框" vertex="1">
+          <mxGeometry height="39" width="126" x="885" y="316" as="geometry" />
+        </mxCell>
+        <mxCell id="p3d" edge="1" parent="1" style="edgeStyle=none;html=1;rounded=0;dashed=1;dashPattern=3 3;strokeWidth=1.5;strokeColor=#666666;endArrow=none;startArrow=none;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="p3l">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="948" y="355" as="sourcePoint" />
+            <mxPoint x="948" y="475" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p3l" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=none;fillColor=none;fontFamily=PingFang SC;fontSize=16;" value="接驾异常" vertex="1">
+          <mxGeometry height="30" width="84" x="907" y="445" as="geometry" />
+        </mxCell>
+        <mxCell id="p3c1" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#FFFFFF;strokeColor=#666666;strokeWidth=1.7;" value="" vertex="1">
+          <mxGeometry height="13" width="13" x="942" y="486" as="geometry" />
+        </mxCell>
+        <mxCell id="p3c2" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#FFFFFF;strokeColor=#666666;strokeWidth=1.7;" value="" vertex="1">
+          <mxGeometry height="13" width="13" x="942" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="p4r" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#FFFFFF;strokeColor=#FF1F1F;strokeWidth=3;" value="" vertex="1">
+          <mxGeometry height="17" width="17" x="1111" y="226" as="geometry" />
+        </mxCell>
+        <mxCell id="p4t" parent="1" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=none;fillColor=none;fontFamily=PingFang SC;fontSize=16;" value="干预（降发生）" vertex="1">
+          <mxGeometry height="38" width="150" x="1131" y="215" as="geometry" />
+        </mxCell>
+        <mxCell id="p4b" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E2F0D9;strokeColor=#93C47D;strokeWidth=1.5;fontFamily=PingFang SC;fontSize=16;" value="挽留提醒" vertex="1">
+          <mxGeometry height="39" width="125" x="1109" y="262" as="geometry" />
+        </mxCell>
+        <mxCell id="p4d" edge="1" parent="1" style="edgeStyle=none;html=1;rounded=0;dashed=1;dashPattern=3 3;strokeWidth=1.5;strokeColor=#666666;endArrow=none;startArrow=none;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="cancel_label_top">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1172" y="301" as="sourcePoint" />
+            <mxPoint x="1309" y="475" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p5r" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#FFFFFF;strokeColor=#FF1F1F;strokeWidth=3;" value="" vertex="1">
+          <mxGeometry height="17" width="17" x="1278" y="226" as="geometry" />
+        </mxCell>
+        <mxCell id="p5t" parent="1" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=none;fillColor=none;fontFamily=PingFang SC;fontSize=16;" value="主动补偿" vertex="1">
+          <mxGeometry height="38" width="150" x="1298" y="215" as="geometry" />
+        </mxCell>
+        <mxCell id="p5b1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E2F0D9;strokeColor=#93C47D;strokeWidth=1.5;fontFamily=PingFang SC;fontSize=16;" value="取消费豁免" vertex="1">
+          <mxGeometry height="37" width="126" x="1254" y="262" as="geometry" />
+        </mxCell>
+        <mxCell id="p5b2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E2F0D9;strokeColor=#93C47D;strokeWidth=1.5;fontFamily=PingFang SC;fontSize=16;" value="补券/升舱" vertex="1">
+          <mxGeometry height="37" width="126" x="1254" y="299" as="geometry" />
+        </mxCell>
+        <mxCell id="p5b3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E2F0D9;strokeColor=#93C47D;strokeWidth=1.5;fontFamily=PingFang SC;fontSize=16;" value="换车优先派" vertex="1">
+          <mxGeometry height="37" width="126" x="1254" y="336" as="geometry" />
+        </mxCell>
+        <mxCell id="p5d" edge="1" parent="1" style="edgeStyle=none;html=1;rounded=0;dashed=1;dashPattern=3 3;strokeWidth=1.5;strokeColor=#666666;endArrow=none;startArrow=none;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="cancel_label_top">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1317" y="373" as="sourcePoint" />
+            <mxPoint x="1317" y="475" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p6r" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#FFFFFF;strokeColor=#FF1F1F;strokeWidth=3;" value="" vertex="1">
+          <mxGeometry height="17" width="17" x="1410" y="226" as="geometry" />
+        </mxCell>
+        <mxCell id="p6t" parent="1" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=none;fillColor=none;fontFamily=PingFang SC;fontSize=16;" value="奖惩链路" vertex="1">
+          <mxGeometry height="38" width="150" x="1430" y="215" as="geometry" />
+        </mxCell>
+        <mxCell id="p6b" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E2F0D9;strokeColor=#93C47D;strokeWidth=1.5;fontFamily=PingFang SC;fontSize=16;" value="在线判责" vertex="1">
+          <mxGeometry height="39" width="112" x="1396" y="262" as="geometry" />
+        </mxCell>
+        <mxCell id="p6d" edge="1" parent="1" style="edgeStyle=none;html=1;rounded=0;dashed=1;dashPattern=3 3;strokeWidth=1.5;strokeColor=#666666;endArrow=none;startArrow=none;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="cancel_label_top">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1452" y="301" as="sourcePoint" />
+            <mxPoint x="1309" y="475" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p7r" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#FFFFFF;strokeColor=#FF1F1F;strokeWidth=3;" value="" vertex="1">
+          <mxGeometry height="17" width="17" x="1552" y="226" as="geometry" />
+        </mxCell>
+        <mxCell id="p7t" parent="1" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=none;fillColor=none;fontFamily=PingFang SC;fontSize=16;" value="干预（降发生）" vertex="1">
+          <mxGeometry height="38" width="150" x="1572" y="215" as="geometry" />
+        </mxCell>
+        <mxCell id="p7b" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E2F0D9;strokeColor=#93C47D;strokeWidth=1.5;fontFamily=PingFang SC;fontSize=16;" value="乘客迟到提醒" vertex="1">
+          <mxGeometry height="39" width="112" x="1557" y="262" as="geometry" />
+        </mxCell>
+        <mxCell id="p7d" edge="1" parent="1" style="edgeStyle=none;html=1;rounded=0;dashed=1;dashPattern=3 3;strokeWidth=1.5;strokeColor=#666666;endArrow=none;startArrow=none;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="late_l">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1613" y="301" as="sourcePoint" />
+            <mxPoint x="1613" y="475" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cancel_p1" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#FFFFFF;strokeColor=#666666;strokeWidth=1.7;" value="" vertex="1">
+          <mxGeometry height="13" width="13" x="1303" y="486" as="geometry" />
+        </mxCell>
+        <mxCell id="cancel_p2" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#FFFFFF;strokeColor=#666666;strokeWidth=1.7;" value="" vertex="1">
+          <mxGeometry height="13" width="13" x="1268" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="cancel_label_top" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=none;fillColor=none;fontFamily=PingFang SC;fontSize=16;" value="取消" vertex="1">
+          <mxGeometry height="30" width="62" x="1287" y="445" as="geometry" />
+        </mxCell>
+        <mxCell id="cancel_label_bottom" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=none;fillColor=none;fontFamily=PingFang SC;fontSize=16;" value="取消" vertex="1">
+          <mxGeometry height="30" width="72" x="1242" y="510" as="geometry" />
+        </mxCell>
+        <mxCell id="dest_c" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#FFFFFF;strokeColor=#666666;strokeWidth=1.7;" value="" vertex="1">
+          <mxGeometry height="13" width="13" x="1496" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="dest_l" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=none;fillColor=none;fontFamily=PingFang SC;fontSize=16;" value="到达约定地 点" vertex="1">
+          <mxGeometry height="44" width="96" x="1452" y="510" as="geometry" />
+        </mxCell>
+        <mxCell id="late_c" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#FFFFFF;strokeColor=#666666;strokeWidth=1.7;" value="" vertex="1">
+          <mxGeometry height="13" width="13" x="1607" y="486" as="geometry" />
+        </mxCell>
+        <mxCell id="late_l" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=none;fillColor=none;fontFamily=PingFang SC;fontSize=16;" value="乘客迟到" vertex="1">
+          <mxGeometry height="30" width="80" x="1572" y="445" as="geometry" />
+        </mxCell>
+        <mxCell id="b1left" edge="1" parent="1" style="edgeStyle=none;html=1;rounded=0;dashed=1;dashPattern=3 3;strokeWidth=1.5;strokeColor=#666666;endArrow=none;startArrow=none;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="606" y="513" as="sourcePoint" />
+            <mxPoint x="526" y="620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b1right" edge="1" parent="1" style="edgeStyle=none;html=1;rounded=0;dashed=1;dashPattern=3 3;strokeWidth=1.5;strokeColor=#666666;endArrow=none;startArrow=none;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="606" y="513" as="sourcePoint" />
+            <mxPoint x="670" y="620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b1lr" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#FFFFFF;strokeColor=#FF1F1F;strokeWidth=3;" value="" vertex="1">
+          <mxGeometry height="17" width="17" x="463" y="642" as="geometry" />
+        </mxCell>
+        <mxCell id="b1lt" parent="1" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=none;fillColor=none;fontFamily=PingFang SC;fontSize=16;" value="干预（降发生）" vertex="1">
+          <mxGeometry height="38" width="150" x="483" y="630" as="geometry" />
+        </mxCell>
+        <mxCell id="b1lb1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E2F0D9;strokeColor=#93C47D;strokeWidth=1.5;fontFamily=PingFang SC;fontSize=16;" value="迟到提醒" vertex="1">
+          <mxGeometry height="38" width="112" x="470" y="677" as="geometry" />
+        </mxCell>
+        <mxCell id="b1lb2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E2F0D9;strokeColor=#93C47D;strokeWidth=1.5;fontFamily=PingFang SC;fontSize=16;" value="超时等待服务" vertex="1">
+          <mxGeometry height="38" width="112" x="470" y="715" as="geometry" />
+        </mxCell>
+        <mxCell id="b1rr" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#FFFFFF;strokeColor=#FF1F1F;strokeWidth=3;" value="" vertex="1">
+          <mxGeometry height="17" width="17" x="614" y="642" as="geometry" />
+        </mxCell>
+        <mxCell id="b1rt" parent="1" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=none;fillColor=none;fontFamily=PingFang SC;fontSize=16;" value="司机激励活动" vertex="1">
+          <mxGeometry height="38" width="160" x="634" y="630" as="geometry" />
+        </mxCell>
+        <mxCell id="b1rb" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#E5A23C;strokeWidth=1.5;fontFamily=PingFang SC;fontSize=16;" value="彩蛋单激励提醒" vertex="1">
+          <mxGeometry height="39" width="112" x="615" y="677" as="geometry" />
+        </mxCell>
+        <mxCell id="b2left" edge="1" parent="1" style="edgeStyle=none;html=1;rounded=0;dashed=1;dashPattern=3 3;strokeWidth=1.5;strokeColor=#666666;endArrow=none;startArrow=none;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="948" y="513" as="sourcePoint" />
+            <mxPoint x="877" y="620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b2right" edge="1" parent="1" style="edgeStyle=none;html=1;rounded=0;dashed=1;dashPattern=3 3;strokeWidth=1.5;strokeColor=#666666;endArrow=none;startArrow=none;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="948" y="513" as="sourcePoint" />
+            <mxPoint x="1022" y="620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b2lr" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#FFFFFF;strokeColor=#FF1F1F;strokeWidth=3;" value="" vertex="1">
+          <mxGeometry height="17" width="17" x="815" y="631" as="geometry" />
+        </mxCell>
+        <mxCell id="b2lt" parent="1" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=none;fillColor=none;fontFamily=PingFang SC;fontSize=16;" value="干预（降发生）" vertex="1">
+          <mxGeometry height="38" width="150" x="835" y="619" as="geometry" />
+        </mxCell>
+        <mxCell id="b2lb" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E2F0D9;strokeColor=#93C47D;strokeWidth=1.5;fontFamily=PingFang SC;fontSize=16;" value="宣教语音播报" vertex="1">
+          <mxGeometry height="39" width="112" x="820" y="666" as="geometry" />
+        </mxCell>
+        <mxCell id="b2rr" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#FFFFFF;strokeColor=#FF1F1F;strokeWidth=3;" value="" vertex="1">
+          <mxGeometry height="17" width="17" x="985" y="631" as="geometry" />
+        </mxCell>
+        <mxCell id="b2rt" parent="1" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=none;fillColor=none;fontFamily=PingFang SC;fontSize=16;" value="奖惩" vertex="1">
+          <mxGeometry height="38" width="100" x="1005" y="619" as="geometry" />
+        </mxCell>
+        <mxCell id="b2rb" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E2F0D9;strokeColor=#93C47D;strokeWidth=1.5;fontFamily=PingFang SC;fontSize=16;" value="加服务分/补贴提醒" vertex="1">
+          <mxGeometry height="39" width="145" x="950" y="666" as="geometry" />
+        </mxCell>
+        <mxCell id="b3left" edge="1" parent="1" source="cancel_label_bottom" style="edgeStyle=none;html=1;rounded=0;dashed=1;dashPattern=3 3;strokeWidth=1.5;strokeColor=#666666;endArrow=none;startArrow=none;exitX=0.5;exitY=1;exitDx=0;exitDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1275" y="513" as="sourcePoint" />
+            <mxPoint x="1209" y="620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b3right" edge="1" parent="1" source="cancel_label_bottom" style="edgeStyle=none;html=1;rounded=0;dashed=1;dashPattern=3 3;strokeWidth=1.5;strokeColor=#666666;endArrow=none;startArrow=none;exitX=0.5;exitY=1;exitDx=0;exitDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1275" y="513" as="sourcePoint" />
+            <mxPoint x="1345" y="620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b3lr" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#FFFFFF;strokeColor=#FF1F1F;strokeWidth=3;" value="" vertex="1">
+          <mxGeometry height="17" width="17" x="1141" y="631" as="geometry" />
+        </mxCell>
+        <mxCell id="b3lt" parent="1" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=none;fillColor=none;fontFamily=PingFang SC;fontSize=16;" value="干预（降发生）" vertex="1">
+          <mxGeometry height="38" width="150" x="1161" y="619" as="geometry" />
+        </mxCell>
+        <mxCell id="b3lb1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E2F0D9;strokeColor=#93C47D;strokeWidth=1.5;fontFamily=PingFang SC;fontSize=16;" value="挽留提醒" vertex="1">
+          <mxGeometry height="38" width="112" x="1147" y="666" as="geometry" />
+        </mxCell>
+        <mxCell id="b3lb2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E2F0D9;strokeColor=#93C47D;strokeWidth=1.5;fontFamily=PingFang SC;fontSize=16;" value="加分/补贴" vertex="1">
+          <mxGeometry height="38" width="112" x="1147" y="704" as="geometry" />
+        </mxCell>
+        <mxCell id="b3rr" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#FFFFFF;strokeColor=#FF1F1F;strokeWidth=3;" value="" vertex="1">
+          <mxGeometry height="17" width="17" x="1278" y="631" as="geometry" />
+        </mxCell>
+        <mxCell id="b3rt" parent="1" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=none;fillColor=none;fontFamily=PingFang SC;fontSize=16;" value="奖惩链路" vertex="1">
+          <mxGeometry height="38" width="150" x="1298" y="619" as="geometry" />
+        </mxCell>
+        <mxCell id="b3rb1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E2F0D9;strokeColor=#93C47D;strokeWidth=1.5;fontFamily=PingFang SC;fontSize=16;" value="单单判链路" vertex="1">
+          <mxGeometry height="38" width="112" x="1280" y="666" as="geometry" />
+        </mxCell>
+        <mxCell id="b3rb2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E2F0D9;strokeColor=#93C47D;strokeWidth=1.5;fontFamily=PingFang SC;fontSize=16;" value="人维度管控链路" vertex="1">
+          <mxGeometry height="38" width="112" x="1280" y="704" as="geometry" />
+        </mxCell>
+        <mxCell id="human_dim" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=none;fillColor=none;fontFamily=PingFang SC;fontSize=16;" value="人维度" vertex="1">
+          <mxGeometry height="32" width="88" x="72" y="695" as="geometry" />
+        </mxCell>
+        <mxCell id="driver_dim_line" edge="1" parent="1" style="edgeStyle=none;html=1;rounded=0;dashed=1;dashPattern=3 3;strokeWidth=1.5;strokeColor=#666666;endArrow=none;startArrow=none;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="131" y="676" as="sourcePoint" />
+            <mxPoint x="131" y="766" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hd_r" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#FFFFFF;strokeColor=#FF1F1F;strokeWidth=3;" value="" vertex="1">
+          <mxGeometry height="17" width="17" x="76" y="765" as="geometry" />
+        </mxCell>
+        <mxCell id="hd_t" parent="1" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=none;fillColor=none;fontFamily=PingFang SC;fontSize=16;" value="司机激励活动" vertex="1">
+          <mxGeometry height="38" width="160" x="96" y="753" as="geometry" />
+        </mxCell>
+        <mxCell id="hd_b" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#E5A23C;strokeWidth=1.5;fontFamily=PingFang SC;fontSize=16;" value="周期性任务活动" vertex="1">
+          <mxGeometry height="38" width="116" x="78" y="802" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
