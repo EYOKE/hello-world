@@ -5,10 +5,7 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="VS_q-2daqRys0ZAGqH5n-93" parent="1" style="text;html=0;whiteSpace=wrap;align=left;verticalAlign=middle;fontFamily=PingFang SC;fontSize=30;fontColor=#25313d;fontStyle=1;" value="乘客预取消" vertex="1">
-          <mxGeometry height="42" width="1750" x="724.4285714285716" y="218.8571428571429" as="geometry" />
-        </mxCell>
-        <mxCell id="VS_q-2daqRys0ZAGqH5n-94" parent="1" style="text;html=0;whiteSpace=wrap;align=left;verticalAlign=middle;fontFamily=PingFang SC;fontSize=19;fontColor=#25313d;" value="v2 标准取消费链路｜判责与场景并行获取，汇总后进入判罚及页面组装" vertex="1">
-          <mxGeometry height="32" width="1750" x="724.4285714285716" y="264.8571428571429" as="geometry" />
+          <mxGeometry height="42" width="1750" x="724.4285714285716" y="259.9971428571429" as="geometry" />
         </mxCell>
         <mxCell id="VS_q-2daqRys0ZAGqH5n-95" parent="1" style="swimlane;horizontal=1;startSize=65;html=0;rounded=0;collapsible=0;fontSize=23;fontFamily=PingFang SC;fontStyle=1;fillColor=#edf2f7;swimlaneFillColor=#FFFFFF;strokeColor=#b9c2ca;strokeWidth=1;" value="乘客侧" vertex="1">
           <mxGeometry height="1910" width="210" x="724.4285714285716" y="318.8571428571429" as="geometry" />
@@ -240,15 +237,6 @@
         </mxCell>
         <mxCell id="VS_q-2daqRys0ZAGqH5n-159" parent="1" style="text;html=0;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=PingFang SC;fontSize=15;fontColor=#25313d;" value="未准入、已有补偿等情况按规则返回" vertex="1">
           <mxGeometry height="32" width="330" x="2226.9285714285716" y="1822.857142857143" as="geometry" />
-        </mxCell>
-        <mxCell id="VS_q-2daqRys0ZAGqH5n-160" parent="1" style="text;html=0;whiteSpace=wrap;align=left;verticalAlign=middle;fontFamily=PingFang SC;fontSize=17;fontColor=#25313d;" value="实线：主流程或同步调用　　虚线：异步触发　　“特征、权益与存储”为相关依赖的合并泳道。" vertex="1">
-          <mxGeometry height="26" width="1840" x="724.4285714285716" y="2248.857142857143" as="geometry" />
-        </mxCell>
-        <mxCell id="VS_q-2daqRys0ZAGqH5n-161" parent="1" style="text;html=0;whiteSpace=wrap;align=left;verticalAlign=middle;fontFamily=PingFang SC;fontSize=17;fontColor=#25313d;" value="范围：城际小车走独立规则；跳过判责或失败可进入默认展示。缓存为标准链路逻辑，不表示所有品类均锁价。" vertex="1">
-          <mxGeometry height="26" width="1840" x="724.4285714285716" y="2275.857142857143" as="geometry" />
-        </mxCell>
-        <mxCell id="VS_q-2daqRys0ZAGqH5n-162" parent="1" style="text;html=0;whiteSpace=wrap;align=left;verticalAlign=middle;fontFamily=PingFang SC;fontSize=17;fontColor=#25313d;" value="预取消返回费用和操作选择；乘客点击换车或确认取消后，才进入对应后续流程。" vertex="1">
-          <mxGeometry height="26" width="1840" x="724.4285714285716" y="2302.857142857143" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
