@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" compressed="false" pages="2">
   <diagram id="乘客确认取消泳道图-费用判断" name="① 乘客确认取消：费用判断与返回">
-    <mxGraphModel dx="1565" dy="1068" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="2280" math="0" shadow="0">
+    <mxGraphModel dx="3354" dy="2289" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="2280" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -70,24 +70,6 @@
         <mxCell id="penalty" parent="lane_plamer" style="rounded=1;arcSize=8;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#4b5967;strokeWidth=1.6;fontFamily=PingFang SC;fontSize=19;spacing=8;" value="重新请求判罚&#xa;根据责任与特征计算" vertex="1">
           <mxGeometry height="85" width="240" x="25" y="1170" as="geometry" />
         </mxCell>
-        <mxCell id="lane_support" parent="1" style="swimlane;horizontal=1;startSize=65;html=0;rounded=0;collapsible=0;fontSize=23;fontFamily=PingFang SC;fontStyle=1;fillColor=#f1edf7;swimlaneFillColor=#FFFFFF;strokeColor=#b9c2ca;strokeWidth=1;" value="缓存、特征与消息" vertex="1">
-          <mxGeometry height="2045" width="320" x="1560" y="120" as="geometry" />
-        </mxCell>
-        <mxCell id="judgecache" parent="lane_support" style="rounded=1;arcSize=8;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#4b5967;strokeWidth=1.6;fontFamily=PingFang SC;fontSize=19;spacing=8;" value="Redis&#xa;预取消判责缓存" vertex="1">
-          <mxGeometry height="70" width="260" x="30" y="255" as="geometry" />
-        </mxCell>
-        <mxCell id="fxrquery" parent="lane_support" style="rounded=1;arcSize=8;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#4b5967;strokeWidth=1.6;fontFamily=PingFang SC;fontSize=19;spacing=8;" value="FXR：本次查询&#xa;失败以空特征继续" vertex="1">
-          <mxGeometry height="90" width="260" x="30" y="625" as="geometry" />
-        </mxCell>
-        <mxCell id="penaltycache" parent="lane_support" style="rounded=1;arcSize=8;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#4b5967;strokeWidth=1.6;fontFamily=PingFang SC;fontSize=19;spacing=8;" value="Redis&#xa;预取消判罚缓存" vertex="1">
-          <mxGeometry height="70" width="260" x="30" y="815" as="geometry" />
-        </mxCell>
-        <mxCell id="mq" parent="lane_support" style="rounded=1;arcSize=8;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#4b5967;strokeWidth=1.6;fontFamily=PingFang SC;fontSize=19;spacing=8;" value="确认取消 MQ&#xa;及 Redis 计次操作" vertex="1">
-          <mxGeometry height="95" width="260" x="30" y="1560" as="geometry" />
-        </mxCell>
-        <mxCell id="consumer" parent="lane_support" style="rounded=1;arcSize=8;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#4b5967;strokeWidth=1.6;fontFamily=PingFang SC;fontSize=19;spacing=8;" value="确认消息消费与后续治理" vertex="1">
-          <mxGeometry height="75" width="260" x="30" y="1765" as="geometry" />
-        </mxCell>
         <mxCell id="e0" edge="1" parent="1" source="request" style="noEdgeStyle=1;rounded=0;html=0;endArrow=block;endFill=1;strokeWidth=1.6;strokeColor=#4b5967;exitX=1.0;exitY=0.5;entryX=0.0;entryY=0.3684210526315789;exitPerimeter=0;entryPerimeter=0;" target="route">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -97,18 +79,21 @@
         <mxCell id="e2" edge="1" parent="1" source="entry" style="noEdgeStyle=1;rounded=0;html=0;endArrow=block;endFill=1;strokeWidth=1.6;strokeColor=#4b5967;exitX=0.5;exitY=1.0;entryX=0.5;entryY=0.0;exitPerimeter=0;entryPerimeter=0;" target="readjudge">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="e3" edge="1" parent="1" source="readjudge" style="noEdgeStyle=1;rounded=0;html=0;endArrow=block;endFill=1;strokeWidth=1.6;strokeColor=#4b5967;exitX=1.0;exitY=0.5;entryX=0.0;entryY=0.5;exitPerimeter=0;entryPerimeter=0;" target="judgecache">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="e3" edge="1" parent="1" source="readjudge" style="noEdgeStyle=1;rounded=0;html=0;endArrow=block;endFill=1;strokeWidth=1.6;strokeColor=#4b5967;exitX=1.0;exitY=0.5;entryX=0.0;entryY=0.5;exitPerimeter=0;entryPerimeter=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1590" y="410" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="e4" edge="1" parent="1" source="readjudge" style="noEdgeStyle=1;rounded=0;html=0;endArrow=block;endFill=1;strokeWidth=1.6;strokeColor=#4b5967;exitX=0.5;exitY=1.0;entryX=0.5;entryY=0.0;exitPerimeter=0;entryPerimeter=0;" target="judgegate">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="e5" edge="1" parent="1" source="judgecache" style="noEdgeStyle=1;rounded=0;html=0;endArrow=block;endFill=1;strokeWidth=1.6;strokeColor=#4b5967;exitX=0.5;exitY=1.0;entryX=0.5;entryY=0.0;exitPerimeter=0;entryPerimeter=0;" target="judgegate">
+        <mxCell id="e5" edge="1" parent="1" style="noEdgeStyle=1;rounded=0;html=0;endArrow=block;endFill=1;strokeWidth=1.6;strokeColor=#4b5967;exitX=0.5;exitY=1.0;entryX=0.5;entryY=0.0;exitPerimeter=0;entryPerimeter=0;" target="judgegate">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="1720" y="480" />
               <mxPoint x="770" y="480" />
             </Array>
+            <mxPoint x="1720" y="445" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="e6" edge="1" parent="1" source="judgegate" style="noEdgeStyle=1;rounded=0;html=0;endArrow=block;endFill=1;strokeWidth=1.6;strokeColor=#4b5967;exitX=1.0;exitY=0.5;entryX=0.0;entryY=0.5;exitPerimeter=0;entryPerimeter=0;" target="nxjudge">
@@ -125,29 +110,35 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="e9" edge="1" parent="1" source="fxr" style="noEdgeStyle=1;rounded=0;html=0;endArrow=block;endFill=1;strokeWidth=1.6;strokeColor=#4b5967;exitX=1.0;exitY=0.5;entryX=0.0;entryY=0.5;exitPerimeter=0;entryPerimeter=0;" target="fxrquery">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="e9" edge="1" parent="1" source="fxr" style="noEdgeStyle=1;rounded=0;html=0;endArrow=block;endFill=1;strokeWidth=1.6;strokeColor=#4b5967;exitX=1.0;exitY=0.5;entryX=0.0;entryY=0.5;exitPerimeter=0;entryPerimeter=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1590" y="790" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="e10" edge="1" parent="1" source="fxrquery" style="noEdgeStyle=1;rounded=0;html=0;endArrow=block;endFill=1;strokeWidth=1.6;strokeColor=#4b5967;exitX=0.5;exitY=1.0;entryX=0.5;entryY=0.0;exitPerimeter=0;entryPerimeter=0;" target="readpenalty">
+        <mxCell id="e10" edge="1" parent="1" style="noEdgeStyle=1;rounded=0;html=0;endArrow=block;endFill=1;strokeWidth=1.6;strokeColor=#4b5967;exitX=0.5;exitY=1.0;entryX=0.5;entryY=0.0;exitPerimeter=0;entryPerimeter=0;" target="readpenalty">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="1720" y="885" />
               <mxPoint x="770" y="885" />
             </Array>
+            <mxPoint x="1720" y="835" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="e11" edge="1" parent="1" source="readpenalty" style="noEdgeStyle=1;rounded=0;html=0;endArrow=block;endFill=1;strokeWidth=1.6;strokeColor=#4b5967;exitX=1.0;exitY=0.5;entryX=0.0;entryY=0.5;exitPerimeter=0;entryPerimeter=0;" target="penaltycache">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="e11" edge="1" parent="1" source="readpenalty" style="noEdgeStyle=1;rounded=0;html=0;endArrow=block;endFill=1;strokeWidth=1.6;strokeColor=#4b5967;exitX=1.0;exitY=0.5;entryX=0.0;entryY=0.5;exitPerimeter=0;entryPerimeter=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1590" y="970" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="e12" edge="1" parent="1" source="readpenalty" style="noEdgeStyle=1;rounded=0;html=0;endArrow=block;endFill=1;strokeWidth=1.6;strokeColor=#4b5967;exitX=0.5;exitY=1.0;entryX=0.5;entryY=0.0;exitPerimeter=0;entryPerimeter=0;" target="penaltygate">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="e13" edge="1" parent="1" source="penaltycache" style="noEdgeStyle=1;rounded=0;html=0;endArrow=block;endFill=1;strokeWidth=1.6;strokeColor=#4b5967;exitX=0.5;exitY=1.0;entryX=0.5;entryY=0.0;exitPerimeter=0;entryPerimeter=0;" target="penaltygate">
+        <mxCell id="e13" edge="1" parent="1" style="noEdgeStyle=1;rounded=0;html=0;endArrow=block;endFill=1;strokeWidth=1.6;strokeColor=#4b5967;exitX=0.5;exitY=1.0;entryX=0.5;entryY=0.0;exitPerimeter=0;entryPerimeter=0;" target="penaltygate">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="1720" y="1040" />
               <mxPoint x="770" y="1040" />
             </Array>
+            <mxPoint x="1720" y="1005" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="e14" edge="1" parent="1" source="penaltygate" style="noEdgeStyle=1;rounded=0;html=0;endArrow=block;endFill=1;strokeWidth=1.6;strokeColor=#4b5967;exitX=0.5;exitY=1.0;entryX=0.5;entryY=0.0;exitPerimeter=0;entryPerimeter=0;" target="penaltyhelper">
@@ -178,14 +169,19 @@
         <mxCell id="e19" edge="1" parent="1" source="fees" style="noEdgeStyle=1;rounded=0;html=0;endArrow=block;endFill=1;strokeWidth=1.6;strokeColor=#4b5967;exitX=0.5;exitY=1.0;entryX=0.5;entryY=0.0;exitPerimeter=0;entryPerimeter=0;" target="posts">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="e20" edge="1" parent="1" source="posts" style="noEdgeStyle=1;rounded=0;html=0;endArrow=block;endFill=1;strokeWidth=1.6;strokeColor=#4b5967;exitX=1.0;exitY=0.5;entryX=0.0;entryY=0.5;exitPerimeter=0;entryPerimeter=0;" target="mq">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="e20" edge="1" parent="1" source="posts" style="noEdgeStyle=1;rounded=0;html=0;endArrow=block;endFill=1;strokeWidth=1.6;strokeColor=#4b5967;exitX=1.0;exitY=0.5;entryX=0.0;entryY=0.5;exitPerimeter=0;entryPerimeter=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1590" y="1727.5" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="e21" edge="1" parent="1" source="posts" style="noEdgeStyle=1;rounded=0;html=0;endArrow=block;endFill=1;strokeWidth=1.6;strokeColor=#4b5967;exitX=0.5;exitY=1.0;entryX=0.5;entryY=0.0;exitPerimeter=0;entryPerimeter=0;" target="view">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="e22" edge="1" parent="1" source="mq" style="noEdgeStyle=1;rounded=0;html=0;endArrow=block;endFill=1;strokeWidth=1.6;strokeColor=#4b5967;exitX=0.5;exitY=1.0;entryX=0.5;entryY=0.0;exitPerimeter=0;entryPerimeter=0;dashed=1;dashPattern=6 4;" target="consumer">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="e22" edge="1" parent="1" style="noEdgeStyle=1;rounded=0;html=0;endArrow=block;endFill=1;strokeWidth=1.6;strokeColor=#4b5967;exitX=0.5;exitY=1.0;entryX=0.5;entryY=0.0;exitPerimeter=0;entryPerimeter=0;dashed=1;dashPattern=6 4;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1720" y="1775" as="sourcePoint" />
+            <mxPoint x="1720" y="1885" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="e23" edge="1" parent="1" source="view" style="noEdgeStyle=1;rounded=0;html=0;endArrow=block;endFill=1;strokeWidth=1.6;strokeColor=#4b5967;exitX=0.5;exitY=1.0;entryX=1.0;entryY=0.5;exitPerimeter=0;entryPerimeter=0;" target="return">
           <mxGeometry relative="1" as="geometry">
