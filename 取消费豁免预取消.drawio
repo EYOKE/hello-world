@@ -1,0 +1,277 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="第 1 页" id="0C3a8OOld6gWBTUYBDGy">
+    <mxGraphModel dx="1174" dy="801" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="rut-zJbiu4kJQfznSYl1-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;乘客api&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="340" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="rut-zJbiu4kJQfznSYl1-2" edge="1" parent="1" source="rut-zJbiu4kJQfznSYl1-4" style="endArrow=none;dashed=1;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="399.5" y="946" as="sourcePoint" />
+            <mxPoint x="399.5" y="382" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rut-zJbiu4kJQfznSYl1-3" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;" target="rut-zJbiu4kJQfznSYl1-4" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="400" y="996" as="sourcePoint" />
+            <mxPoint x="399.5" y="382" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rut-zJbiu4kJQfznSYl1-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" value="" vertex="1">
+          <mxGeometry height="608" width="19" x="390.5" y="411" as="geometry" />
+        </mxCell>
+        <mxCell id="rut-zJbiu4kJQfznSYl1-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;themis/door-gods/core-api&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="536" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="rut-zJbiu4kJQfznSYl1-6" edge="1" parent="1" source="rut-zJbiu4kJQfznSYl1-8" style="endArrow=none;dashed=1;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="595.5" y="946" as="sourcePoint" />
+            <mxPoint x="595.5" y="382" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rut-zJbiu4kJQfznSYl1-7" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;" target="rut-zJbiu4kJQfznSYl1-8" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="596" y="989" as="sourcePoint" />
+            <mxPoint x="595.5" y="382" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rut-zJbiu4kJQfznSYl1-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" value="" vertex="1">
+          <mxGeometry height="614" width="19" x="586.5" y="411" as="geometry" />
+        </mxCell>
+        <mxCell id="rut-zJbiu4kJQfznSYl1-9" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="415" y="449" as="sourcePoint" />
+            <mxPoint x="585" y="449" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rut-zJbiu4kJQfznSYl1-10" connectable="0" parent="rut-zJbiu4kJQfznSYl1-9" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;获取预取消文案&lt;/font&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.1647" as="geometry">
+            <mxPoint x="12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rut-zJbiu4kJQfznSYl1-11" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fillColor=#d5e8d4;strokeColor=#82b366;" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;机判&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="743" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="rut-zJbiu4kJQfznSYl1-12" edge="1" parent="1" source="rut-zJbiu4kJQfznSYl1-15" style="endArrow=none;dashed=1;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="802.5" y="946" as="sourcePoint" />
+            <mxPoint x="802.5" y="382" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rut-zJbiu4kJQfznSYl1-13" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;" target="rut-zJbiu4kJQfznSYl1-15" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="803" y="985" as="sourcePoint" />
+            <mxPoint x="802.5" y="382" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rut-zJbiu4kJQfznSYl1-14" edge="1" parent="1" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" target="rut-zJbiu4kJQfznSYl1-18" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="843" y="494" />
+              <mxPoint x="843" y="524" />
+            </Array>
+            <mxPoint x="812.5" y="493.6187500000001" as="sourcePoint" />
+            <mxPoint x="932.5" y="493.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rut-zJbiu4kJQfznSYl1-15" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" value="" vertex="1">
+          <mxGeometry height="205" width="19" x="793.5" y="411" as="geometry" />
+        </mxCell>
+        <mxCell id="rut-zJbiu4kJQfznSYl1-16" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="610" y="471" as="sourcePoint" />
+            <mxPoint x="793" y="471" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rut-zJbiu4kJQfznSYl1-17" connectable="0" parent="rut-zJbiu4kJQfznSYl1-16" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;乘客取消判责&lt;/font&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.1647" as="geometry">
+            <mxPoint x="12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rut-zJbiu4kJQfznSYl1-18" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" value="" vertex="1">
+          <mxGeometry height="60" width="16" x="804" y="534" as="geometry" />
+        </mxCell>
+        <mxCell id="rut-zJbiu4kJQfznSYl1-19" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;取消判责&lt;/font&gt;" vertex="1">
+          <mxGeometry height="31" width="66" x="813" y="468" as="geometry" />
+        </mxCell>
+        <mxCell id="rut-zJbiu4kJQfznSYl1-20" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;dashed=1;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="792" y="604" as="sourcePoint" />
+            <mxPoint x="609" y="604" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rut-zJbiu4kJQfznSYl1-21" connectable="0" parent="rut-zJbiu4kJQfznSYl1-20" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;判责结果&lt;/font&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.1647" as="geometry">
+            <mxPoint x="-6" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rut-zJbiu4kJQfznSYl1-22" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fillColor=#fff2cc;strokeColor=#d6b656;" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;判罚&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="955" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="rut-zJbiu4kJQfznSYl1-23" edge="1" parent="1" source="rut-zJbiu4kJQfznSYl1-25" style="endArrow=none;dashed=1;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1014.5" y="946" as="sourcePoint" />
+            <mxPoint x="1014.5" y="382" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rut-zJbiu4kJQfznSYl1-24" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;" target="rut-zJbiu4kJQfznSYl1-25" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1015" y="980" as="sourcePoint" />
+            <mxPoint x="1014.5" y="382" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rut-zJbiu4kJQfznSYl1-25" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" value="" vertex="1">
+          <mxGeometry height="209" width="19" x="1005.5" y="595" as="geometry" />
+        </mxCell>
+        <mxCell id="rut-zJbiu4kJQfznSYl1-26" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="605.5" y="656" as="sourcePoint" />
+            <mxPoint x="1003" y="656" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rut-zJbiu4kJQfznSYl1-27" connectable="0" parent="rut-zJbiu4kJQfznSYl1-26" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;调用判罚&lt;/font&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.1897" y="-2" as="geometry">
+            <mxPoint x="-39" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rut-zJbiu4kJQfznSYl1-28" edge="1" parent="1" source="rut-zJbiu4kJQfznSYl1-25" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;fontSize=12;startSize=8;endSize=8;" target="rut-zJbiu4kJQfznSYl1-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rut-zJbiu4kJQfznSYl1-29" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fillColor=#ffe6cc;strokeColor=#d79b00;" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;特征平台&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="1171" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="rut-zJbiu4kJQfznSYl1-30" edge="1" parent="1" source="rut-zJbiu4kJQfznSYl1-32" style="endArrow=none;dashed=1;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1230.5" y="946" as="sourcePoint" />
+            <mxPoint x="1230.5" y="382" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rut-zJbiu4kJQfznSYl1-31" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;" target="rut-zJbiu4kJQfznSYl1-32" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1231" y="974" as="sourcePoint" />
+            <mxPoint x="1230.5" y="382" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rut-zJbiu4kJQfznSYl1-32" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" value="" vertex="1">
+          <mxGeometry height="171" width="19" x="1221.5" y="596" as="geometry" />
+        </mxCell>
+        <mxCell id="rut-zJbiu4kJQfznSYl1-33" edge="1" parent="1" source="rut-zJbiu4kJQfznSYl1-32" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;fontSize=12;startSize=8;endSize=8;" target="rut-zJbiu4kJQfznSYl1-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rut-zJbiu4kJQfznSYl1-34" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;strokeColor=#FF3333;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1024.5" y="621" as="sourcePoint" />
+            <mxPoint x="1219" y="621" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rut-zJbiu4kJQfznSYl1-35" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fillColor=#f8cecc;strokeColor=#b85450;" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;会员/权益/标签&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="1383" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="rut-zJbiu4kJQfznSYl1-36" edge="1" parent="1" source="rut-zJbiu4kJQfznSYl1-38" style="endArrow=none;dashed=1;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1442.5" y="946" as="sourcePoint" />
+            <mxPoint x="1442.5" y="382" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rut-zJbiu4kJQfznSYl1-37" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;" target="rut-zJbiu4kJQfznSYl1-38" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1443" y="976" as="sourcePoint" />
+            <mxPoint x="1442.5" y="382" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rut-zJbiu4kJQfznSYl1-38" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" value="" vertex="1">
+          <mxGeometry height="321" width="19" x="1433.5" y="596" as="geometry" />
+        </mxCell>
+        <mxCell id="rut-zJbiu4kJQfznSYl1-39" edge="1" parent="1" source="rut-zJbiu4kJQfznSYl1-38" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;fontSize=12;startSize=8;endSize=8;" target="rut-zJbiu4kJQfznSYl1-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rut-zJbiu4kJQfznSYl1-40" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;strokeColor=#FF3333;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1240.5" y="643" as="sourcePoint" />
+            <mxPoint x="1430" y="643" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rut-zJbiu4kJQfznSYl1-41" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;strokeColor=#FF3333;dashed=1;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1430" y="690" as="sourcePoint" />
+            <mxPoint x="1240.5" y="690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rut-zJbiu4kJQfznSYl1-42" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;获取会员权益/&lt;br&gt;乘客身份特征&lt;/font&gt;" vertex="1">
+          <mxGeometry height="50" width="93" x="1291" y="692" as="geometry" />
+        </mxCell>
+        <mxCell id="rut-zJbiu4kJQfznSYl1-43" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;strokeColor=#FF3333;dashed=1;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1219" y="728" as="sourcePoint" />
+            <mxPoint x="1024.5" y="728" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rut-zJbiu4kJQfznSYl1-44" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;权益/是否可豁免特征&lt;/font&gt;" vertex="1">
+          <mxGeometry height="31" width="129" x="1059" y="732" as="geometry" />
+        </mxCell>
+        <mxCell id="rut-zJbiu4kJQfznSYl1-45" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;dashed=1;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1003" y="763" as="sourcePoint" />
+            <mxPoint x="605.5" y="763" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rut-zJbiu4kJQfznSYl1-46" connectable="0" parent="rut-zJbiu4kJQfznSYl1-45" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;返回取消费金额&amp;amp;豁免标签&lt;/font&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.1897" y="-2" as="geometry">
+            <mxPoint x="38" y="4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rut-zJbiu4kJQfznSYl1-47" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;strokeColor=#FF3333;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="604.25" y="851" as="sourcePoint" />
+            <mxPoint x="1431" y="851" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rut-zJbiu4kJQfznSYl1-48" connectable="0" parent="rut-zJbiu4kJQfznSYl1-47" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;获取会员/权益/标签相关信息&lt;/font&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.1897" y="-2" as="geometry">
+            <mxPoint x="-77" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rut-zJbiu4kJQfznSYl1-49" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;strokeColor=#FF3333;dashed=1;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1432.25" y="884" as="sourcePoint" />
+            <mxPoint x="605.5" y="884" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rut-zJbiu4kJQfznSYl1-50" connectable="0" parent="rut-zJbiu4kJQfznSYl1-49" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;return&lt;/font&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.1897" y="-2" as="geometry">
+            <mxPoint x="79" y="3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rut-zJbiu4kJQfznSYl1-51" edge="1" parent="1" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;entryX=0.75;entryY=0;entryDx=0;entryDy=0;strokeColor=#FF3333;" target="rut-zJbiu4kJQfznSYl1-52" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="639" y="918" />
+              <mxPoint x="639" y="948" />
+            </Array>
+            <mxPoint x="608.5" y="917.6187500000001" as="sourcePoint" />
+            <mxPoint x="728.5" y="917.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rut-zJbiu4kJQfznSYl1-52" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#f8cecc;strokeColor=#b85450;" value="" vertex="1">
+          <mxGeometry height="60" width="16" x="600" y="958" as="geometry" />
+        </mxCell>
+        <mxCell id="rut-zJbiu4kJQfznSYl1-53" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;文案渲染&lt;/font&gt;" vertex="1">
+          <mxGeometry height="31" width="66" x="609" y="892" as="geometry" />
+        </mxCell>
+        <mxCell id="rut-zJbiu4kJQfznSYl1-54" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;dashed=1;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="582" y="995" as="sourcePoint" />
+            <mxPoint x="412" y="995" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rut-zJbiu4kJQfznSYl1-55" connectable="0" parent="rut-zJbiu4kJQfznSYl1-54" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;return&lt;/font&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.1647" as="geometry">
+            <mxPoint x="-13" y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
