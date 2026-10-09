@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="第 1 页" id="0C3a8OOld6gWBTUYBDGy">
-    <mxGraphModel dx="1174" dy="801" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1012" dy="803" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -180,7 +180,7 @@
             <mxPoint x="1410" y="1099" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="xhXgAC84cw7gPmbibKPo-74" connectable="0" parent="xhXgAC84cw7gPmbibKPo-73" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="写高等级会员豁免UFS特征" vertex="1">
+        <mxCell id="xhXgAC84cw7gPmbibKPo-74" connectable="0" parent="xhXgAC84cw7gPmbibKPo-73" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="写异地无忧豁免UFS特征" vertex="1">
           <mxGeometry relative="1" x="0.0596" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
