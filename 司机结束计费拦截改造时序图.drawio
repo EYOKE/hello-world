@@ -1,0 +1,902 @@
+<mxfile host="app.diagrams.net" agent="OpenAI" compressed="false">
+  <diagram id="driver-intercept-sequence" name="完整时序图">
+    <mxGraphModel dx="1449" dy="989" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2600" pageHeight="3240" background="#FFFFFF" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="change_1" data-kind="change-background" parent="1" style="shape=rectangle;rounded=0;whiteSpace=wrap;html=0;fillColor=#E6F2FF;strokeColor=#8CB4DF;strokeWidth=1.5;shadow=0;" value="" vertex="1">
+          <mxGeometry height="420" width="1240" x="680" y="830" as="geometry" />
+        </mxCell>
+        <mxCell id="change_2" data-kind="change-background" parent="1" style="shape=rectangle;rounded=0;whiteSpace=wrap;html=0;fillColor=#E6F2FF;strokeColor=#8CB4DF;strokeWidth=1.5;shadow=0;" value="" vertex="1">
+          <mxGeometry height="526" width="1560" x="680" y="1290" as="geometry" />
+        </mxCell>
+        <mxCell id="change_3" data-kind="change-background" parent="1" style="shape=rectangle;rounded=0;whiteSpace=wrap;html=0;fillColor=#E6F2FF;strokeColor=#8CB4DF;strokeWidth=1.5;shadow=0;" value="" vertex="1">
+          <mxGeometry height="418" width="1240" x="1000" y="2140" as="geometry" />
+        </mxCell>
+        <mxCell id="change_4" data-kind="change-background" parent="1" style="shape=rectangle;rounded=0;whiteSpace=wrap;html=0;fillColor=#E6F2FF;strokeColor=#8CB4DF;strokeWidth=1.5;shadow=0;" value="" vertex="1">
+          <mxGeometry height="408" width="1560" x="1000" y="2690" as="geometry" />
+        </mxCell>
+        <mxCell id="alt_1" data-kind="alt-frame" parent="1" style="shape=rectangle;rounded=0;whiteSpace=wrap;html=0;fillColor=none;strokeColor=#6B7C90;strokeWidth=1.3;shadow=0;" value="" vertex="1">
+          <mxGeometry height="226" width="1180" x="710" y="1004" as="geometry" />
+        </mxCell>
+        <mxCell id="alt_1_separator" data-kind="branch-separator" edge="1" parent="1" style="edgeStyle=none;noEdgeStyle=1;rounded=0;curved=0;html=0;strokeColor=#6B7C90;strokeWidth=1.2;startArrow=none;endArrow=none;endFill=1;endSize=9;dashed=1;dashPattern=5 4;fixDash=1;exitX=0.5;exitY=0.5;entryX=0.5;entryY=0.5;exitPerimeter=0;entryPerimeter=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="710" y="1126" as="sourcePoint" />
+            <mxPoint x="1890" y="1126" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="alt_2" data-kind="alt-frame" parent="1" style="shape=rectangle;rounded=0;whiteSpace=wrap;html=0;fillColor=none;strokeColor=#6B7C90;strokeWidth=1.3;shadow=0;" value="" vertex="1">
+          <mxGeometry height="272" width="1500" x="710" y="1524" as="geometry" />
+        </mxCell>
+        <mxCell id="alt_2_separator" data-kind="branch-separator" edge="1" parent="1" style="edgeStyle=none;noEdgeStyle=1;rounded=0;curved=0;html=0;strokeColor=#6B7C90;strokeWidth=1.2;startArrow=none;endArrow=none;endFill=1;endSize=9;dashed=1;dashPattern=5 4;fixDash=1;exitX=0.5;exitY=0.5;entryX=0.5;entryY=0.5;exitPerimeter=0;entryPerimeter=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="710" y="1686" as="sourcePoint" />
+            <mxPoint x="2210" y="1686" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="alt_3" data-kind="alt-frame" parent="1" style="shape=rectangle;rounded=0;whiteSpace=wrap;html=0;fillColor=none;strokeColor=#6B7C90;strokeWidth=1.3;shadow=0;" value="" vertex="1">
+          <mxGeometry height="250" width="1180" x="1030" y="2288" as="geometry" />
+        </mxCell>
+        <mxCell id="alt_3_separator" data-kind="branch-separator" edge="1" parent="1" style="edgeStyle=none;noEdgeStyle=1;rounded=0;curved=0;html=0;strokeColor=#6B7C90;strokeWidth=1.2;startArrow=none;endArrow=none;endFill=1;endSize=9;dashed=1;dashPattern=5 4;fixDash=1;exitX=0.5;exitY=0.5;entryX=0.5;entryY=0.5;exitPerimeter=0;entryPerimeter=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1030" y="2440" as="sourcePoint" />
+            <mxPoint x="2210" y="2440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lane_D" data-kind="participant-group" parent="1" style="group;connectable=0;collapsible=0;" value="" vertex="1">
+          <mxGeometry height="3074" width="210" x="75" y="126" as="geometry" />
+        </mxCell>
+        <mxCell id="header_D" data-kind="participant-header" parent="lane_D" style="shape=rectangle;rounded=0;whiteSpace=wrap;html=0;fillColor=#F5F5F5;strokeColor=#888888;strokeWidth=1.7;shadow=0;" value="" vertex="1">
+          <mxGeometry height="64" width="210" as="geometry" />
+        </mxCell>
+        <mxCell id="header_text_D" parent="lane_D" style="text;html=0;whiteSpace=wrap;overflow=visible;rounded=0;align=center;verticalAlign=middle;spacing=0;fontFamily=Arial, PingFang SC, Microsoft YaHei, sans-serif;fontSize=24;fontColor=#263238;fontStyle=1;fillColor=none;strokeColor=none;" value="司机端" vertex="1">
+          <mxGeometry height="64" width="200" x="5" as="geometry" />
+        </mxCell>
+        <mxCell id="lifeline_D" data-kind="lifeline" edge="1" parent="lane_D" style="edgeStyle=none;noEdgeStyle=1;rounded=0;curved=0;html=0;strokeColor=#828B94;strokeWidth=1.2;startArrow=none;endArrow=none;endFill=1;endSize=9;dashed=1;dashPattern=5 4;fixDash=1;exitX=0.5;exitY=0.5;entryX=0.5;entryY=0.5;exitPerimeter=0;entryPerimeter=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="105" y="64" as="sourcePoint" />
+            <mxPoint x="105" y="3014" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="activation_D_0" data-kind="activation" parent="lane_D" style="shape=rectangle;rounded=0;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#5E666D;strokeWidth=1.4;shadow=0;" value="" vertex="1">
+          <mxGeometry height="1748" width="16" x="97" y="96" as="geometry" />
+        </mxCell>
+        <mxCell id="footer_D" data-kind="participant-footer" parent="lane_D" style="shape=rectangle;rounded=0;whiteSpace=wrap;html=0;fillColor=#F5F5F5;strokeColor=#888888;strokeWidth=1.5;shadow=0;" value="" vertex="1">
+          <mxGeometry height="58" width="210" y="3014" as="geometry" />
+        </mxCell>
+        <mxCell id="footer_text_D" parent="lane_D" style="text;html=0;whiteSpace=wrap;overflow=visible;rounded=0;align=center;verticalAlign=middle;spacing=0;fontFamily=Arial, PingFang SC, Microsoft YaHei, sans-serif;fontSize=22;fontColor=#263238;fontStyle=1;fillColor=none;strokeColor=none;" value="司机端" vertex="1">
+          <mxGeometry height="58" width="200" x="5" y="3014" as="geometry" />
+        </mxCell>
+        <mxCell id="message_01_source" data-kind="connection-port" parent="lane_D" style="shape=rectangle;opacity=0;fillColor=none;strokeColor=none;perimeter=none;connectable=1;resizable=0;" value="" vertex="1">
+          <mxGeometry x="113" y="112" as="geometry" />
+        </mxCell>
+        <mxCell id="message_08_target" data-kind="connection-port" parent="lane_D" style="shape=rectangle;opacity=0;fillColor=none;strokeColor=none;perimeter=none;connectable=1;resizable=0;" value="" vertex="1">
+          <mxGeometry x="113" y="538" as="geometry" />
+        </mxCell>
+        <mxCell id="message_09_source" data-kind="connection-port" parent="lane_D" style="shape=rectangle;opacity=0;fillColor=none;strokeColor=none;perimeter=none;connectable=1;resizable=0;" value="" vertex="1">
+          <mxGeometry x="113" y="594" as="geometry" />
+        </mxCell>
+        <mxCell id="message_20_target" data-kind="connection-port" parent="lane_D" style="shape=rectangle;opacity=0;fillColor=none;strokeColor=none;perimeter=none;connectable=1;resizable=0;" value="" vertex="1">
+          <mxGeometry x="113" y="1752" as="geometry" />
+        </mxCell>
+        <mxCell id="message_21_source" data-kind="connection-port" parent="lane_D" style="shape=rectangle;opacity=0;fillColor=none;strokeColor=none;perimeter=none;connectable=1;resizable=0;" value="" vertex="1">
+          <mxGeometry x="113" y="1822" as="geometry" />
+        </mxCell>
+        <mxCell id="lane_A" data-kind="participant-group" parent="1" style="group;connectable=0;collapsible=0;" value="" vertex="1">
+          <mxGeometry height="3074" width="210" x="395" y="126" as="geometry" />
+        </mxCell>
+        <mxCell id="header_A" data-kind="participant-header" parent="lane_A" style="shape=rectangle;rounded=0;whiteSpace=wrap;html=0;fillColor=#DAE8FC;strokeColor=#6C8EBF;strokeWidth=1.7;shadow=0;" value="" vertex="1">
+          <mxGeometry height="64" width="210" as="geometry" />
+        </mxCell>
+        <mxCell id="header_text_A" parent="lane_A" style="text;html=0;whiteSpace=wrap;overflow=visible;rounded=0;align=center;verticalAlign=middle;spacing=0;fontFamily=Arial, PingFang SC, Microsoft YaHei, sans-serif;fontSize=24;fontColor=#263238;fontStyle=1;fillColor=none;strokeColor=none;" value="司机API" vertex="1">
+          <mxGeometry height="64" width="200" x="5" as="geometry" />
+        </mxCell>
+        <mxCell id="lifeline_A" data-kind="lifeline" edge="1" parent="lane_A" style="edgeStyle=none;noEdgeStyle=1;rounded=0;curved=0;html=0;strokeColor=#828B94;strokeWidth=1.2;startArrow=none;endArrow=none;endFill=1;endSize=9;dashed=1;dashPattern=5 4;fixDash=1;exitX=0.5;exitY=0.5;entryX=0.5;entryY=0.5;exitPerimeter=0;entryPerimeter=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="105" y="64" as="sourcePoint" />
+            <mxPoint x="105" y="3014" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="activation_A_0" data-kind="activation" parent="lane_A" style="shape=rectangle;rounded=0;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#5E666D;strokeWidth=1.4;shadow=0;" value="" vertex="1">
+          <mxGeometry height="456" width="16" x="97" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="activation_A_1" data-kind="activation" parent="lane_A" style="shape=rectangle;rounded=0;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#5E666D;strokeWidth=1.4;shadow=0;" value="" vertex="1">
+          <mxGeometry height="186" width="16" x="97" y="1808" as="geometry" />
+        </mxCell>
+        <mxCell id="footer_A" data-kind="participant-footer" parent="lane_A" style="shape=rectangle;rounded=0;whiteSpace=wrap;html=0;fillColor=#DAE8FC;strokeColor=#6C8EBF;strokeWidth=1.5;shadow=0;" value="" vertex="1">
+          <mxGeometry height="58" width="210" y="3014" as="geometry" />
+        </mxCell>
+        <mxCell id="footer_text_A" parent="lane_A" style="text;html=0;whiteSpace=wrap;overflow=visible;rounded=0;align=center;verticalAlign=middle;spacing=0;fontFamily=Arial, PingFang SC, Microsoft YaHei, sans-serif;fontSize=22;fontColor=#263238;fontStyle=1;fillColor=none;strokeColor=none;" value="司机API" vertex="1">
+          <mxGeometry height="58" width="200" x="5" y="3014" as="geometry" />
+        </mxCell>
+        <mxCell id="message_01_target" data-kind="connection-port" parent="lane_A" style="shape=rectangle;opacity=0;fillColor=none;strokeColor=none;perimeter=none;connectable=1;resizable=0;" value="" vertex="1">
+          <mxGeometry x="97" y="112" as="geometry" />
+        </mxCell>
+        <mxCell id="message_02_source" data-kind="connection-port" parent="lane_A" style="shape=rectangle;opacity=0;fillColor=none;strokeColor=none;perimeter=none;connectable=1;resizable=0;" value="" vertex="1">
+          <mxGeometry x="113" y="168" as="geometry" />
+        </mxCell>
+        <mxCell id="message_07_target" data-kind="connection-port" parent="lane_A" style="shape=rectangle;opacity=0;fillColor=none;strokeColor=none;perimeter=none;connectable=1;resizable=0;" value="" vertex="1">
+          <mxGeometry x="113" y="482" as="geometry" />
+        </mxCell>
+        <mxCell id="message_08_source" data-kind="connection-port" parent="lane_A" style="shape=rectangle;opacity=0;fillColor=none;strokeColor=none;perimeter=none;connectable=1;resizable=0;" value="" vertex="1">
+          <mxGeometry x="97" y="538" as="geometry" />
+        </mxCell>
+        <mxCell id="message_21_target" data-kind="connection-port" parent="lane_A" style="shape=rectangle;opacity=0;fillColor=none;strokeColor=none;perimeter=none;connectable=1;resizable=0;" value="" vertex="1">
+          <mxGeometry x="97" y="1822" as="geometry" />
+        </mxCell>
+        <mxCell id="message_22_source" data-kind="connection-port" parent="lane_A" style="shape=rectangle;opacity=0;fillColor=none;strokeColor=none;perimeter=none;connectable=1;resizable=0;" value="" vertex="1">
+          <mxGeometry x="113" y="1878" as="geometry" />
+        </mxCell>
+        <mxCell id="message_22_target" data-kind="connection-port" parent="lane_A" style="shape=rectangle;opacity=0;fillColor=none;strokeColor=none;perimeter=none;connectable=1;resizable=0;" value="" vertex="1">
+          <mxGeometry x="113" y="1914" as="geometry" />
+        </mxCell>
+        <mxCell id="message_23_source" data-kind="connection-port" parent="lane_A" style="shape=rectangle;opacity=0;fillColor=none;strokeColor=none;perimeter=none;connectable=1;resizable=0;" value="" vertex="1">
+          <mxGeometry x="113" y="1974" as="geometry" />
+        </mxCell>
+        <mxCell id="lane_H" data-kind="participant-group" parent="1" style="group;connectable=0;collapsible=0;" value="" vertex="1">
+          <mxGeometry height="3074" width="210" x="715" y="126" as="geometry" />
+        </mxCell>
+        <mxCell id="header_H" data-kind="participant-header" parent="lane_H" style="shape=rectangle;rounded=0;whiteSpace=wrap;html=0;fillColor=#D5E8D4;strokeColor=#82B366;strokeWidth=1.7;shadow=0;" value="" vertex="1">
+          <mxGeometry height="64" width="210" as="geometry" />
+        </mxCell>
+        <mxCell id="header_text_H" parent="lane_H" style="text;html=0;whiteSpace=wrap;overflow=visible;rounded=0;align=center;verticalAlign=middle;spacing=0;fontFamily=Arial, PingFang SC, Microsoft YaHei, sans-serif;fontSize=24;fontColor=#263238;fontStyle=1;fillColor=none;strokeColor=none;" value="拦截H5" vertex="1">
+          <mxGeometry height="64" width="200" x="5" as="geometry" />
+        </mxCell>
+        <mxCell id="lifeline_H" data-kind="lifeline" edge="1" parent="lane_H" style="edgeStyle=none;noEdgeStyle=1;rounded=0;curved=0;html=0;strokeColor=#828B94;strokeWidth=1.2;startArrow=none;endArrow=none;endFill=1;endSize=9;dashed=1;dashPattern=5 4;fixDash=1;exitX=0.5;exitY=0.5;entryX=0.5;entryY=0.5;exitPerimeter=0;entryPerimeter=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="105" y="64" as="sourcePoint" />
+            <mxPoint x="105" y="3014" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="activation_H_0" data-kind="activation" parent="lane_H" style="shape=rectangle;rounded=0;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#5E666D;strokeWidth=1.4;shadow=0;" value="" vertex="1">
+          <mxGeometry height="1186" width="16" x="97" y="580" as="geometry" />
+        </mxCell>
+        <mxCell id="footer_H" data-kind="participant-footer" parent="lane_H" style="shape=rectangle;rounded=0;whiteSpace=wrap;html=0;fillColor=#D5E8D4;strokeColor=#82B366;strokeWidth=1.5;shadow=0;" value="" vertex="1">
+          <mxGeometry height="58" width="210" y="3014" as="geometry" />
+        </mxCell>
+        <mxCell id="footer_text_H" parent="lane_H" style="text;html=0;whiteSpace=wrap;overflow=visible;rounded=0;align=center;verticalAlign=middle;spacing=0;fontFamily=Arial, PingFang SC, Microsoft YaHei, sans-serif;fontSize=22;fontColor=#263238;fontStyle=1;fillColor=none;strokeColor=none;" value="拦截H5" vertex="1">
+          <mxGeometry height="58" width="200" x="5" y="3014" as="geometry" />
+        </mxCell>
+        <mxCell id="message_09_target" data-kind="connection-port" parent="lane_H" style="shape=rectangle;opacity=0;fillColor=none;strokeColor=none;perimeter=none;connectable=1;resizable=0;" value="" vertex="1">
+          <mxGeometry x="97" y="594" as="geometry" />
+        </mxCell>
+        <mxCell id="message_10_source" data-kind="connection-port" parent="lane_H" style="shape=rectangle;opacity=0;fillColor=none;strokeColor=none;perimeter=none;connectable=1;resizable=0;" value="" vertex="1">
+          <mxGeometry x="113" y="662" as="geometry" />
+        </mxCell>
+        <mxCell id="message_13_target" data-kind="connection-port" parent="lane_H" style="shape=rectangle;opacity=0;fillColor=none;strokeColor=none;perimeter=none;connectable=1;resizable=0;" value="" vertex="1">
+          <mxGeometry x="113" y="976" as="geometry" />
+        </mxCell>
+        <mxCell id="message_14_target" data-kind="connection-port" parent="lane_H" style="shape=rectangle;opacity=0;fillColor=none;strokeColor=none;perimeter=none;connectable=1;resizable=0;" value="" vertex="1">
+          <mxGeometry x="113" y="1082" as="geometry" />
+        </mxCell>
+        <mxCell id="message_15_source" data-kind="connection-port" parent="lane_H" style="shape=rectangle;opacity=0;fillColor=none;strokeColor=none;perimeter=none;connectable=1;resizable=0;" value="" vertex="1">
+          <mxGeometry x="113" y="1276" as="geometry" />
+        </mxCell>
+        <mxCell id="message_18_target" data-kind="connection-port" parent="lane_H" style="shape=rectangle;opacity=0;fillColor=none;strokeColor=none;perimeter=none;connectable=1;resizable=0;" value="" vertex="1">
+          <mxGeometry x="113" y="1534" as="geometry" />
+        </mxCell>
+        <mxCell id="message_19_target" data-kind="connection-port" parent="lane_H" style="shape=rectangle;opacity=0;fillColor=none;strokeColor=none;perimeter=none;connectable=1;resizable=0;" value="" vertex="1">
+          <mxGeometry x="113" y="1648" as="geometry" />
+        </mxCell>
+        <mxCell id="message_20_source" data-kind="connection-port" parent="lane_H" style="shape=rectangle;opacity=0;fillColor=none;strokeColor=none;perimeter=none;connectable=1;resizable=0;" value="" vertex="1">
+          <mxGeometry x="97" y="1752" as="geometry" />
+        </mxCell>
+        <mxCell id="lane_C" data-kind="participant-group" parent="1" style="group;connectable=0;collapsible=0;" value="" vertex="1">
+          <mxGeometry height="3074" width="210" x="1035" y="126" as="geometry" />
+        </mxCell>
+        <mxCell id="header_C" data-kind="participant-header" parent="lane_C" style="shape=rectangle;rounded=0;whiteSpace=wrap;html=0;fillColor=#DAE8FC;strokeColor=#6C8EBF;strokeWidth=1.7;shadow=0;" value="" vertex="1">
+          <mxGeometry height="64" width="210" as="geometry" />
+        </mxCell>
+        <mxCell id="header_text_C" parent="lane_C" style="text;html=0;whiteSpace=wrap;overflow=visible;rounded=0;align=center;verticalAlign=middle;spacing=0;fontFamily=Arial, PingFang SC, Microsoft YaHei, sans-serif;fontSize=24;fontColor=#263238;fontStyle=1;fillColor=none;strokeColor=none;" value="门神/core-api" vertex="1">
+          <mxGeometry height="64" width="200" x="5" as="geometry" />
+        </mxCell>
+        <mxCell id="lifeline_C" data-kind="lifeline" edge="1" parent="lane_C" style="edgeStyle=none;noEdgeStyle=1;rounded=0;curved=0;html=0;strokeColor=#828B94;strokeWidth=1.2;startArrow=none;endArrow=none;endFill=1;endSize=9;dashed=1;dashPattern=5 4;fixDash=1;exitX=0.5;exitY=0.5;entryX=0.5;entryY=0.5;exitPerimeter=0;entryPerimeter=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="105" y="64" as="sourcePoint" />
+            <mxPoint x="105" y="3014" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="activation_C_0" data-kind="activation" parent="lane_C" style="shape=rectangle;rounded=0;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#5E666D;strokeWidth=1.4;shadow=0;" value="" vertex="1">
+          <mxGeometry height="342" width="16" x="97" y="156" as="geometry" />
+        </mxCell>
+        <mxCell id="activation_C_1" data-kind="activation" parent="lane_C" style="shape=rectangle;rounded=0;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#5E666D;strokeWidth=1.4;shadow=0;" value="" vertex="1">
+          <mxGeometry height="464" width="16" x="97" y="650" as="geometry" />
+        </mxCell>
+        <mxCell id="activation_C_2" data-kind="activation" parent="lane_C" style="shape=rectangle;rounded=0;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#5E666D;strokeWidth=1.4;shadow=0;" value="" vertex="1">
+          <mxGeometry height="430" width="16" x="97" y="1244" as="geometry" />
+        </mxCell>
+        <mxCell id="activation_C_3" data-kind="activation" parent="lane_C" style="shape=rectangle;rounded=0;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#5E666D;strokeWidth=1.4;shadow=0;" value="" vertex="1">
+          <mxGeometry height="582" width="16" x="97" y="1962" as="geometry" />
+        </mxCell>
+        <mxCell id="activation_C_4" data-kind="activation" parent="lane_C" style="shape=rectangle;rounded=0;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#5E666D;strokeWidth=1.4;shadow=0;" value="" vertex="1">
+          <mxGeometry height="298" width="16" x="97" y="2666" as="geometry" />
+        </mxCell>
+        <mxCell id="footer_C" data-kind="participant-footer" parent="lane_C" style="shape=rectangle;rounded=0;whiteSpace=wrap;html=0;fillColor=#DAE8FC;strokeColor=#6C8EBF;strokeWidth=1.5;shadow=0;" value="" vertex="1">
+          <mxGeometry height="58" width="210" y="3014" as="geometry" />
+        </mxCell>
+        <mxCell id="footer_text_C" parent="lane_C" style="text;html=0;whiteSpace=wrap;overflow=visible;rounded=0;align=center;verticalAlign=middle;spacing=0;fontFamily=Arial, PingFang SC, Microsoft YaHei, sans-serif;fontSize=22;fontColor=#263238;fontStyle=1;fillColor=none;strokeColor=none;" value="门神/core-api" vertex="1">
+          <mxGeometry height="58" width="200" x="5" y="3014" as="geometry" />
+        </mxCell>
+        <mxCell id="message_02_target" data-kind="connection-port" parent="lane_C" style="shape=rectangle;opacity=0;fillColor=none;strokeColor=none;perimeter=none;connectable=1;resizable=0;" value="" vertex="1">
+          <mxGeometry x="97" y="168" as="geometry" />
+        </mxCell>
+        <mxCell id="message_03_source" data-kind="connection-port" parent="lane_C" style="shape=rectangle;opacity=0;fillColor=none;strokeColor=none;perimeter=none;connectable=1;resizable=0;" value="" vertex="1">
+          <mxGeometry x="113" y="224" as="geometry" />
+        </mxCell>
+        <mxCell id="message_04_target" data-kind="connection-port" parent="lane_C" style="shape=rectangle;opacity=0;fillColor=none;strokeColor=none;perimeter=none;connectable=1;resizable=0;" value="" vertex="1">
+          <mxGeometry x="113" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="message_05_source" data-kind="connection-port" parent="lane_C" style="shape=rectangle;opacity=0;fillColor=none;strokeColor=none;perimeter=none;connectable=1;resizable=0;" value="" vertex="1">
+          <mxGeometry x="113" y="336" as="geometry" />
+        </mxCell>
+        <mxCell id="message_05_target" data-kind="connection-port" parent="lane_C" style="shape=rectangle;opacity=0;fillColor=none;strokeColor=none;perimeter=none;connectable=1;resizable=0;" value="" vertex="1">
+          <mxGeometry x="113" y="372" as="geometry" />
+        </mxCell>
+        <mxCell id="message_06_source" data-kind="connection-port" parent="lane_C" style="shape=rectangle;opacity=0;fillColor=none;strokeColor=none;perimeter=none;connectable=1;resizable=0;" value="" vertex="1">
+          <mxGeometry x="113" y="426" as="geometry" />
+        </mxCell>
+        <mxCell id="message_07_source" data-kind="connection-port" parent="lane_C" style="shape=rectangle;opacity=0;fillColor=none;strokeColor=none;perimeter=none;connectable=1;resizable=0;" value="" vertex="1">
+          <mxGeometry x="97" y="482" as="geometry" />
+        </mxCell>
+        <mxCell id="message_10_target" data-kind="connection-port" parent="lane_C" style="shape=rectangle;opacity=0;fillColor=none;strokeColor=none;perimeter=none;connectable=1;resizable=0;" value="" vertex="1">
+          <mxGeometry x="97" y="662" as="geometry" />
+        </mxCell>
+        <mxCell id="message_11_source" data-kind="connection-port" parent="lane_C" style="shape=rectangle;opacity=0;fillColor=none;strokeColor=none;perimeter=none;connectable=1;resizable=0;" value="" vertex="1">
+          <mxGeometry x="113" y="788" as="geometry" />
+        </mxCell>
+        <mxCell id="message_12_target" data-kind="connection-port" parent="lane_C" style="shape=rectangle;opacity=0;fillColor=none;strokeColor=none;perimeter=none;connectable=1;resizable=0;" value="" vertex="1">
+          <mxGeometry x="113" y="844" as="geometry" />
+        </mxCell>
+        <mxCell id="message_13_source" data-kind="connection-port" parent="lane_C" style="shape=rectangle;opacity=0;fillColor=none;strokeColor=none;perimeter=none;connectable=1;resizable=0;" value="" vertex="1">
+          <mxGeometry x="97" y="976" as="geometry" />
+        </mxCell>
+        <mxCell id="message_14_source" data-kind="connection-port" parent="lane_C" style="shape=rectangle;opacity=0;fillColor=none;strokeColor=none;perimeter=none;connectable=1;resizable=0;" value="" vertex="1">
+          <mxGeometry x="97" y="1082" as="geometry" />
+        </mxCell>
+        <mxCell id="message_15_target" data-kind="connection-port" parent="lane_C" style="shape=rectangle;opacity=0;fillColor=none;strokeColor=none;perimeter=none;connectable=1;resizable=0;" value="" vertex="1">
+          <mxGeometry x="97" y="1276" as="geometry" />
+        </mxCell>
+        <mxCell id="message_16_source" data-kind="connection-port" parent="lane_C" style="shape=rectangle;opacity=0;fillColor=none;strokeColor=none;perimeter=none;connectable=1;resizable=0;" value="" vertex="1">
+          <mxGeometry x="113" y="1332" as="geometry" />
+        </mxCell>
+        <mxCell id="message_16_target" data-kind="connection-port" parent="lane_C" style="shape=rectangle;opacity=0;fillColor=none;strokeColor=none;perimeter=none;connectable=1;resizable=0;" value="" vertex="1">
+          <mxGeometry x="113" y="1368" as="geometry" />
+        </mxCell>
+        <mxCell id="message_17_source" data-kind="connection-port" parent="lane_C" style="shape=rectangle;opacity=0;fillColor=none;strokeColor=none;perimeter=none;connectable=1;resizable=0;" value="" vertex="1">
+          <mxGeometry x="113" y="1476" as="geometry" />
+        </mxCell>
+        <mxCell id="message_18_source" data-kind="connection-port" parent="lane_C" style="shape=rectangle;opacity=0;fillColor=none;strokeColor=none;perimeter=none;connectable=1;resizable=0;" value="" vertex="1">
+          <mxGeometry x="97" y="1534" as="geometry" />
+        </mxCell>
+        <mxCell id="message_19_source" data-kind="connection-port" parent="lane_C" style="shape=rectangle;opacity=0;fillColor=none;strokeColor=none;perimeter=none;connectable=1;resizable=0;" value="" vertex="1">
+          <mxGeometry x="97" y="1648" as="geometry" />
+        </mxCell>
+        <mxCell id="message_23_target" data-kind="connection-port" parent="lane_C" style="shape=rectangle;opacity=0;fillColor=none;strokeColor=none;perimeter=none;connectable=1;resizable=0;" value="" vertex="1">
+          <mxGeometry x="97" y="1974" as="geometry" />
+        </mxCell>
+        <mxCell id="message_24_source" data-kind="connection-port" parent="lane_C" style="shape=rectangle;opacity=0;fillColor=none;strokeColor=none;perimeter=none;connectable=1;resizable=0;" value="" vertex="1">
+          <mxGeometry x="113" y="2102" as="geometry" />
+        </mxCell>
+        <mxCell id="message_24_target" data-kind="connection-port" parent="lane_C" style="shape=rectangle;opacity=0;fillColor=none;strokeColor=none;perimeter=none;connectable=1;resizable=0;" value="" vertex="1">
+          <mxGeometry x="113" y="2138" as="geometry" />
+        </mxCell>
+        <mxCell id="message_25_source" data-kind="connection-port" parent="lane_C" style="shape=rectangle;opacity=0;fillColor=none;strokeColor=none;perimeter=none;connectable=1;resizable=0;" value="" vertex="1">
+          <mxGeometry x="113" y="2234" as="geometry" />
+        </mxCell>
+        <mxCell id="message_26_source" data-kind="connection-port" parent="lane_C" style="shape=rectangle;opacity=0;fillColor=none;strokeColor=none;perimeter=none;connectable=1;resizable=0;" value="" vertex="1">
+          <mxGeometry x="113" y="2386" as="geometry" />
+        </mxCell>
+        <mxCell id="message_27_source" data-kind="connection-port" parent="lane_C" style="shape=rectangle;opacity=0;fillColor=none;strokeColor=none;perimeter=none;connectable=1;resizable=0;" value="" vertex="1">
+          <mxGeometry x="113" y="2488" as="geometry" />
+        </mxCell>
+        <mxCell id="message_27_target" data-kind="connection-port" parent="lane_C" style="shape=rectangle;opacity=0;fillColor=none;strokeColor=none;perimeter=none;connectable=1;resizable=0;" value="" vertex="1">
+          <mxGeometry x="113" y="2524" as="geometry" />
+        </mxCell>
+        <mxCell id="message_28_target" data-kind="connection-port" parent="lane_C" style="shape=rectangle;opacity=0;fillColor=none;strokeColor=none;perimeter=none;connectable=1;resizable=0;" value="" vertex="1">
+          <mxGeometry x="113" y="2678" as="geometry" />
+        </mxCell>
+        <mxCell id="message_29_source" data-kind="connection-port" parent="lane_C" style="shape=rectangle;opacity=0;fillColor=none;strokeColor=none;perimeter=none;connectable=1;resizable=0;" value="" vertex="1">
+          <mxGeometry x="113" y="2738" as="geometry" />
+        </mxCell>
+        <mxCell id="message_30_target" data-kind="connection-port" parent="lane_C" style="shape=rectangle;opacity=0;fillColor=none;strokeColor=none;perimeter=none;connectable=1;resizable=0;" value="" vertex="1">
+          <mxGeometry x="113" y="2798" as="geometry" />
+        </mxCell>
+        <mxCell id="message_31_source" data-kind="connection-port" parent="lane_C" style="shape=rectangle;opacity=0;fillColor=none;strokeColor=none;perimeter=none;connectable=1;resizable=0;" value="" vertex="1">
+          <mxGeometry x="113" y="2858" as="geometry" />
+        </mxCell>
+        <mxCell id="message_31_target" data-kind="connection-port" parent="lane_C" style="shape=rectangle;opacity=0;fillColor=none;strokeColor=none;perimeter=none;connectable=1;resizable=0;" value="" vertex="1">
+          <mxGeometry x="113" y="2894" as="geometry" />
+        </mxCell>
+        <mxCell id="message_32_source" data-kind="connection-port" parent="lane_C" style="shape=rectangle;opacity=0;fillColor=none;strokeColor=none;perimeter=none;connectable=1;resizable=0;" value="" vertex="1">
+          <mxGeometry x="113" y="2948" as="geometry" />
+        </mxCell>
+        <mxCell id="lane_N" data-kind="participant-group" parent="1" style="group;connectable=0;collapsible=0;" value="" vertex="1">
+          <mxGeometry height="3074" width="210" x="1355" y="126" as="geometry" />
+        </mxCell>
+        <mxCell id="header_N" data-kind="participant-header" parent="lane_N" style="shape=rectangle;rounded=0;whiteSpace=wrap;html=0;fillColor=#FFF2CC;strokeColor=#D6B656;strokeWidth=1.7;shadow=0;" value="" vertex="1">
+          <mxGeometry height="64" width="210" as="geometry" />
+        </mxCell>
+        <mxCell id="header_text_N" parent="lane_N" style="text;html=0;whiteSpace=wrap;overflow=visible;rounded=0;align=center;verticalAlign=middle;spacing=0;fontFamily=Arial, PingFang SC, Microsoft YaHei, sans-serif;fontSize=24;fontColor=#263238;fontStyle=1;fillColor=none;strokeColor=none;" value="NX4" vertex="1">
+          <mxGeometry height="64" width="200" x="5" as="geometry" />
+        </mxCell>
+        <mxCell id="lifeline_N" data-kind="lifeline" edge="1" parent="lane_N" style="edgeStyle=none;noEdgeStyle=1;rounded=0;curved=0;html=0;strokeColor=#828B94;strokeWidth=1.2;startArrow=none;endArrow=none;endFill=1;endSize=9;dashed=1;dashPattern=5 4;fixDash=1;exitX=0.5;exitY=0.5;entryX=0.5;entryY=0.5;exitPerimeter=0;entryPerimeter=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="105" y="64" as="sourcePoint" />
+            <mxPoint x="105" y="3014" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="activation_N_0" data-kind="activation" parent="lane_N" style="shape=rectangle;rounded=0;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#5E666D;strokeWidth=1.4;shadow=0;" value="" vertex="1">
+          <mxGeometry height="82" width="16" x="97" y="212" as="geometry" />
+        </mxCell>
+        <mxCell id="footer_N" data-kind="participant-footer" parent="lane_N" style="shape=rectangle;rounded=0;whiteSpace=wrap;html=0;fillColor=#FFF2CC;strokeColor=#D6B656;strokeWidth=1.5;shadow=0;" value="" vertex="1">
+          <mxGeometry height="58" width="210" y="3014" as="geometry" />
+        </mxCell>
+        <mxCell id="footer_text_N" parent="lane_N" style="text;html=0;whiteSpace=wrap;overflow=visible;rounded=0;align=center;verticalAlign=middle;spacing=0;fontFamily=Arial, PingFang SC, Microsoft YaHei, sans-serif;fontSize=22;fontColor=#263238;fontStyle=1;fillColor=none;strokeColor=none;" value="NX4" vertex="1">
+          <mxGeometry height="58" width="200" x="5" y="3014" as="geometry" />
+        </mxCell>
+        <mxCell id="message_03_target" data-kind="connection-port" parent="lane_N" style="shape=rectangle;opacity=0;fillColor=none;strokeColor=none;perimeter=none;connectable=1;resizable=0;" value="" vertex="1">
+          <mxGeometry x="97" y="224" as="geometry" />
+        </mxCell>
+        <mxCell id="message_04_source" data-kind="connection-port" parent="lane_N" style="shape=rectangle;opacity=0;fillColor=none;strokeColor=none;perimeter=none;connectable=1;resizable=0;" value="" vertex="1">
+          <mxGeometry x="97" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="lane_AB" data-kind="participant-group" parent="1" style="group;connectable=0;collapsible=0;" value="" vertex="1">
+          <mxGeometry height="3074" width="210" x="1675" y="126" as="geometry" />
+        </mxCell>
+        <mxCell id="header_AB" data-kind="participant-header" parent="lane_AB" style="shape=rectangle;rounded=0;whiteSpace=wrap;html=0;fillColor=#FFE6CC;strokeColor=#D79B00;strokeWidth=1.7;shadow=0;" value="" vertex="1">
+          <mxGeometry height="64" width="210" as="geometry" />
+        </mxCell>
+        <mxCell id="header_text_AB" parent="lane_AB" style="text;html=0;whiteSpace=wrap;overflow=visible;rounded=0;align=center;verticalAlign=middle;spacing=0;fontFamily=Arial, PingFang SC, Microsoft YaHei, sans-serif;fontSize=24;fontColor=#263238;fontStyle=1;fillColor=none;strokeColor=none;" value="AB平台" vertex="1">
+          <mxGeometry height="64" width="200" x="5" as="geometry" />
+        </mxCell>
+        <mxCell id="lifeline_AB" data-kind="lifeline" edge="1" parent="lane_AB" style="edgeStyle=none;noEdgeStyle=1;rounded=0;curved=0;html=0;strokeColor=#828B94;strokeWidth=1.2;startArrow=none;endArrow=none;endFill=1;endSize=9;dashed=1;dashPattern=5 4;fixDash=1;exitX=0.5;exitY=0.5;entryX=0.5;entryY=0.5;exitPerimeter=0;entryPerimeter=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="105" y="64" as="sourcePoint" />
+            <mxPoint x="105" y="3014" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="activation_AB_0" data-kind="activation" parent="lane_AB" style="shape=rectangle;rounded=0;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#5E666D;strokeWidth=1.4;shadow=0;" value="" vertex="1">
+          <mxGeometry height="84" width="16" x="97" y="774" as="geometry" />
+        </mxCell>
+        <mxCell id="footer_AB" data-kind="participant-footer" parent="lane_AB" style="shape=rectangle;rounded=0;whiteSpace=wrap;html=0;fillColor=#FFE6CC;strokeColor=#D79B00;strokeWidth=1.5;shadow=0;" value="" vertex="1">
+          <mxGeometry height="58" width="210" y="3014" as="geometry" />
+        </mxCell>
+        <mxCell id="footer_text_AB" parent="lane_AB" style="text;html=0;whiteSpace=wrap;overflow=visible;rounded=0;align=center;verticalAlign=middle;spacing=0;fontFamily=Arial, PingFang SC, Microsoft YaHei, sans-serif;fontSize=22;fontColor=#263238;fontStyle=1;fillColor=none;strokeColor=none;" value="AB平台" vertex="1">
+          <mxGeometry height="58" width="200" x="5" y="3014" as="geometry" />
+        </mxCell>
+        <mxCell id="message_11_target" data-kind="connection-port" parent="lane_AB" style="shape=rectangle;opacity=0;fillColor=none;strokeColor=none;perimeter=none;connectable=1;resizable=0;" value="" vertex="1">
+          <mxGeometry x="97" y="788" as="geometry" />
+        </mxCell>
+        <mxCell id="message_12_source" data-kind="connection-port" parent="lane_AB" style="shape=rectangle;opacity=0;fillColor=none;strokeColor=none;perimeter=none;connectable=1;resizable=0;" value="" vertex="1">
+          <mxGeometry x="97" y="844" as="geometry" />
+        </mxCell>
+        <mxCell id="lane_M" data-kind="participant-group" parent="1" style="group;connectable=0;collapsible=0;" value="" vertex="1">
+          <mxGeometry height="3074" width="210" x="1995" y="126" as="geometry" />
+        </mxCell>
+        <mxCell id="header_M" data-kind="participant-header" parent="lane_M" style="shape=rectangle;rounded=0;whiteSpace=wrap;html=0;fillColor=#E1D5E7;strokeColor=#9673A6;strokeWidth=1.7;shadow=0;" value="" vertex="1">
+          <mxGeometry height="64" width="210" as="geometry" />
+        </mxCell>
+        <mxCell id="header_text_M" parent="lane_M" style="text;html=0;whiteSpace=wrap;overflow=visible;rounded=0;align=center;verticalAlign=middle;spacing=0;fontFamily=Arial, PingFang SC, Microsoft YaHei, sans-serif;fontSize=24;fontColor=#263238;fontStyle=1;fillColor=none;strokeColor=none;" value="MySQL" vertex="1">
+          <mxGeometry height="64" width="200" x="5" as="geometry" />
+        </mxCell>
+        <mxCell id="lifeline_M" data-kind="lifeline" edge="1" parent="lane_M" style="edgeStyle=none;noEdgeStyle=1;rounded=0;curved=0;html=0;strokeColor=#828B94;strokeWidth=1.2;startArrow=none;endArrow=none;endFill=1;endSize=9;dashed=1;dashPattern=5 4;fixDash=1;exitX=0.5;exitY=0.5;entryX=0.5;entryY=0.5;exitPerimeter=0;entryPerimeter=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="105" y="64" as="sourcePoint" />
+            <mxPoint x="105" y="3014" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="activation_M_0" data-kind="activation" parent="lane_M" style="shape=rectangle;rounded=0;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#5E666D;strokeWidth=1.4;shadow=0;" value="" vertex="1">
+          <mxGeometry height="28" width="16" x="97" y="414" as="geometry" />
+        </mxCell>
+        <mxCell id="activation_M_1" data-kind="activation" parent="lane_M" style="shape=rectangle;rounded=0;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#5E666D;strokeWidth=1.4;shadow=0;" value="" vertex="1">
+          <mxGeometry height="34" width="16" x="97" y="1464" as="geometry" />
+        </mxCell>
+        <mxCell id="activation_M_2" data-kind="activation" parent="lane_M" style="shape=rectangle;rounded=0;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#5E666D;strokeWidth=1.4;shadow=0;" value="" vertex="1">
+          <mxGeometry height="28" width="16" x="97" y="2222" as="geometry" />
+        </mxCell>
+        <mxCell id="activation_M_3" data-kind="activation" parent="lane_M" style="shape=rectangle;rounded=0;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#5E666D;strokeWidth=1.4;shadow=0;" value="" vertex="1">
+          <mxGeometry height="28" width="16" x="97" y="2374" as="geometry" />
+        </mxCell>
+        <mxCell id="activation_M_4" data-kind="activation" parent="lane_M" style="shape=rectangle;rounded=0;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#5E666D;strokeWidth=1.4;shadow=0;" value="" vertex="1">
+          <mxGeometry height="86" width="16" x="97" y="2726" as="geometry" />
+        </mxCell>
+        <mxCell id="footer_M" data-kind="participant-footer" parent="lane_M" style="shape=rectangle;rounded=0;whiteSpace=wrap;html=0;fillColor=#E1D5E7;strokeColor=#9673A6;strokeWidth=1.5;shadow=0;" value="" vertex="1">
+          <mxGeometry height="58" width="210" y="3014" as="geometry" />
+        </mxCell>
+        <mxCell id="footer_text_M" parent="lane_M" style="text;html=0;whiteSpace=wrap;overflow=visible;rounded=0;align=center;verticalAlign=middle;spacing=0;fontFamily=Arial, PingFang SC, Microsoft YaHei, sans-serif;fontSize=22;fontColor=#263238;fontStyle=1;fillColor=none;strokeColor=none;" value="MySQL" vertex="1">
+          <mxGeometry height="58" width="200" x="5" y="3014" as="geometry" />
+        </mxCell>
+        <mxCell id="message_06_target" data-kind="connection-port" parent="lane_M" style="shape=rectangle;opacity=0;fillColor=none;strokeColor=none;perimeter=none;connectable=1;resizable=0;" value="" vertex="1">
+          <mxGeometry x="97" y="426" as="geometry" />
+        </mxCell>
+        <mxCell id="message_17_target" data-kind="connection-port" parent="lane_M" style="shape=rectangle;opacity=0;fillColor=none;strokeColor=none;perimeter=none;connectable=1;resizable=0;" value="" vertex="1">
+          <mxGeometry x="97" y="1476" as="geometry" />
+        </mxCell>
+        <mxCell id="message_25_target" data-kind="connection-port" parent="lane_M" style="shape=rectangle;opacity=0;fillColor=none;strokeColor=none;perimeter=none;connectable=1;resizable=0;" value="" vertex="1">
+          <mxGeometry x="97" y="2234" as="geometry" />
+        </mxCell>
+        <mxCell id="message_26_target" data-kind="connection-port" parent="lane_M" style="shape=rectangle;opacity=0;fillColor=none;strokeColor=none;perimeter=none;connectable=1;resizable=0;" value="" vertex="1">
+          <mxGeometry x="97" y="2386" as="geometry" />
+        </mxCell>
+        <mxCell id="message_29_target" data-kind="connection-port" parent="lane_M" style="shape=rectangle;opacity=0;fillColor=none;strokeColor=none;perimeter=none;connectable=1;resizable=0;" value="" vertex="1">
+          <mxGeometry x="97" y="2738" as="geometry" />
+        </mxCell>
+        <mxCell id="message_30_source" data-kind="connection-port" parent="lane_M" style="shape=rectangle;opacity=0;fillColor=none;strokeColor=none;perimeter=none;connectable=1;resizable=0;" value="" vertex="1">
+          <mxGeometry x="97" y="2798" as="geometry" />
+        </mxCell>
+        <mxCell id="lane_T" data-kind="participant-group" parent="1" style="group;connectable=0;collapsible=0;" value="" vertex="1">
+          <mxGeometry height="3074" width="210" x="2315" y="126" as="geometry" />
+        </mxCell>
+        <mxCell id="header_T" data-kind="participant-header" parent="lane_T" style="shape=rectangle;rounded=0;whiteSpace=wrap;html=0;fillColor=#F8CECC;strokeColor=#B85450;strokeWidth=1.7;shadow=0;" value="" vertex="1">
+          <mxGeometry height="64" width="210" as="geometry" />
+        </mxCell>
+        <mxCell id="header_text_T" parent="lane_T" style="text;html=0;whiteSpace=wrap;overflow=visible;rounded=0;align=center;verticalAlign=middle;spacing=0;fontFamily=Arial, PingFang SC, Microsoft YaHei, sans-serif;fontSize=24;fontColor=#263238;fontStyle=1;fillColor=none;strokeColor=none;" value="透镜" vertex="1">
+          <mxGeometry height="64" width="200" x="5" as="geometry" />
+        </mxCell>
+        <mxCell id="lifeline_T" data-kind="lifeline" edge="1" parent="lane_T" style="edgeStyle=none;noEdgeStyle=1;rounded=0;curved=0;html=0;strokeColor=#828B94;strokeWidth=1.2;startArrow=none;endArrow=none;endFill=1;endSize=9;dashed=1;dashPattern=5 4;fixDash=1;exitX=0.5;exitY=0.5;entryX=0.5;entryY=0.5;exitPerimeter=0;entryPerimeter=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="105" y="64" as="sourcePoint" />
+            <mxPoint x="105" y="3014" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="activation_T_0" data-kind="activation" parent="lane_T" style="shape=rectangle;rounded=0;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#5E666D;strokeWidth=1.4;shadow=0;" value="" vertex="1">
+          <mxGeometry height="298" width="16" x="97" y="2666" as="geometry" />
+        </mxCell>
+        <mxCell id="footer_T" data-kind="participant-footer" parent="lane_T" style="shape=rectangle;rounded=0;whiteSpace=wrap;html=0;fillColor=#F8CECC;strokeColor=#B85450;strokeWidth=1.5;shadow=0;" value="" vertex="1">
+          <mxGeometry height="58" width="210" y="3014" as="geometry" />
+        </mxCell>
+        <mxCell id="footer_text_T" parent="lane_T" style="text;html=0;whiteSpace=wrap;overflow=visible;rounded=0;align=center;verticalAlign=middle;spacing=0;fontFamily=Arial, PingFang SC, Microsoft YaHei, sans-serif;fontSize=22;fontColor=#263238;fontStyle=1;fillColor=none;strokeColor=none;" value="透镜" vertex="1">
+          <mxGeometry height="58" width="200" x="5" y="3014" as="geometry" />
+        </mxCell>
+        <mxCell id="message_28_source" data-kind="connection-port" parent="lane_T" style="shape=rectangle;opacity=0;fillColor=none;strokeColor=none;perimeter=none;connectable=1;resizable=0;" value="" vertex="1">
+          <mxGeometry x="97" y="2678" as="geometry" />
+        </mxCell>
+        <mxCell id="message_32_target" data-kind="connection-port" parent="lane_T" style="shape=rectangle;opacity=0;fillColor=none;strokeColor=none;perimeter=none;connectable=1;resizable=0;" value="" vertex="1">
+          <mxGeometry x="97" y="2948" as="geometry" />
+        </mxCell>
+        <mxCell id="title" data-kind="title" parent="1" style="text;html=0;whiteSpace=wrap;overflow=visible;rounded=0;align=left;verticalAlign=middle;spacing=0;fontFamily=Arial, PingFang SC, Microsoft YaHei, sans-serif;fontSize=32;fontColor=#263238;fontStyle=1;fillColor=none;strokeColor=none;" value="司机结束计费拦截改造时序图" vertex="1">
+          <mxGeometry height="48" width="2100" x="60" y="22" as="geometry" />
+        </mxCell>
+        <mxCell id="subtitle" parent="1" style="text;html=0;whiteSpace=wrap;overflow=visible;rounded=0;align=left;verticalAlign=middle;spacing=0;fontFamily=Arial, PingFang SC, Microsoft YaHei, sans-serif;fontSize=20;fontColor=#687787;fontStyle=0;fillColor=none;strokeColor=none;" value="原拦截链路 · AB 页面分流 · 司机选择保存 · 完单回调 · 透镜查询" vertex="1">
+          <mxGeometry height="28" width="2200" x="60" y="78" as="geometry" />
+        </mxCell>
+        <mxCell id="change_1_title" data-kind="change-note" parent="1" style="text;html=0;whiteSpace=wrap;overflow=visible;rounded=0;align=left;verticalAlign=middle;spacing=0;fontFamily=Arial, PingFang SC, Microsoft YaHei, sans-serif;fontSize=23;fontColor=#254D78;fontStyle=1;fillColor=#E6F2FF;strokeColor=none;" value="改动①：取页时判断AB，返回新旧页面" vertex="1">
+          <mxGeometry height="36" width="1212" x="694" y="842" as="geometry" />
+        </mxCell>
+        <mxCell id="change_2_title" data-kind="change-note" parent="1" style="text;html=0;whiteSpace=wrap;overflow=visible;rounded=0;align=left;verticalAlign=middle;spacing=0;fontFamily=Arial, PingFang SC, Microsoft YaHei, sans-serif;fontSize=23;fontColor=#254D78;fontStyle=1;fillColor=#E6F2FF;strokeColor=none;" value="改动②：两组均调用更新接口，仅实验组写表" vertex="1">
+          <mxGeometry height="36" width="1532" x="694" y="1302" as="geometry" />
+        </mxCell>
+        <mxCell id="change_3_title" data-kind="change-note" parent="1" style="text;html=0;whiteSpace=wrap;overflow=visible;rounded=0;align=left;verticalAlign=middle;spacing=0;fontFamily=Arial, PingFang SC, Microsoft YaHei, sans-serif;fontSize=23;fontColor=#254D78;fontStyle=1;fillColor=#E6F2FF;strokeColor=none;" value="改动③：完单回调按实验结果区分更新字段" vertex="1">
+          <mxGeometry height="36" width="1212" x="1014" y="2152" as="geometry" />
+        </mxCell>
+        <mxCell id="change_4_title" data-kind="change-note" parent="1" style="text;html=0;whiteSpace=wrap;overflow=visible;rounded=0;align=left;verticalAlign=middle;spacing=0;fontFamily=Arial, PingFang SC, Microsoft YaHei, sans-serif;fontSize=23;fontColor=#254D78;fontStyle=1;fillColor=#E6F2FF;strokeColor=none;" value="改动④：提供透镜查询接口，两组均支持" vertex="1">
+          <mxGeometry height="36" width="1532" x="1014" y="2702" as="geometry" />
+        </mxCell>
+        <mxCell id="alt_1_tab" parent="1" style="shape=rectangle;rounded=0;whiteSpace=wrap;html=0;fillColor=#F7FAFD;strokeColor=#6B7C90;strokeWidth=1.2;shadow=0;" value="" vertex="1">
+          <mxGeometry height="30" width="64" x="710" y="1004" as="geometry" />
+        </mxCell>
+        <mxCell id="alt_1_tab_text" parent="1" style="text;html=0;whiteSpace=wrap;overflow=visible;rounded=0;align=center;verticalAlign=middle;spacing=0;fontFamily=Arial, PingFang SC, Microsoft YaHei, sans-serif;fontSize=18;fontColor=#263238;fontStyle=1;fillColor=none;strokeColor=none;" value="alt" vertex="1">
+          <mxGeometry height="30" width="64" x="710" y="1004" as="geometry" />
+        </mxCell>
+        <mxCell id="alt_1_experiment" data-kind="branch-label" parent="1" style="text;html=0;whiteSpace=wrap;overflow=visible;rounded=0;align=left;verticalAlign=middle;spacing=0;fontFamily=Arial, PingFang SC, Microsoft YaHei, sans-serif;fontSize=20;fontColor=#263238;fontStyle=1;fillColor=#E6F2FF;strokeColor=none;" value="[实验组]" vertex="1">
+          <mxGeometry height="28" width="165" x="788" y="1010" as="geometry" />
+        </mxCell>
+        <mxCell id="alt_1_control" data-kind="branch-label" parent="1" style="text;html=0;whiteSpace=wrap;overflow=visible;rounded=0;align=left;verticalAlign=middle;spacing=0;fontFamily=Arial, PingFang SC, Microsoft YaHei, sans-serif;fontSize=20;fontColor=#263238;fontStyle=1;fillColor=#E6F2FF;strokeColor=none;" value="[非实验组]" vertex="1">
+          <mxGeometry height="28" width="180" x="788" y="1133" as="geometry" />
+        </mxCell>
+        <mxCell id="alt_2_tab" parent="1" style="shape=rectangle;rounded=0;whiteSpace=wrap;html=0;fillColor=#F7FAFD;strokeColor=#6B7C90;strokeWidth=1.2;shadow=0;" value="" vertex="1">
+          <mxGeometry height="30" width="64" x="710" y="1524" as="geometry" />
+        </mxCell>
+        <mxCell id="alt_2_tab_text" parent="1" style="text;html=0;whiteSpace=wrap;overflow=visible;rounded=0;align=center;verticalAlign=middle;spacing=0;fontFamily=Arial, PingFang SC, Microsoft YaHei, sans-serif;fontSize=18;fontColor=#263238;fontStyle=1;fillColor=none;strokeColor=none;" value="alt" vertex="1">
+          <mxGeometry height="30" width="64" x="710" y="1524" as="geometry" />
+        </mxCell>
+        <mxCell id="alt_2_experiment" data-kind="branch-label" parent="1" style="text;html=0;whiteSpace=wrap;overflow=visible;rounded=0;align=left;verticalAlign=middle;spacing=0;fontFamily=Arial, PingFang SC, Microsoft YaHei, sans-serif;fontSize=20;fontColor=#263238;fontStyle=1;fillColor=#E6F2FF;strokeColor=none;" value="[实验组]" vertex="1">
+          <mxGeometry height="28" width="165" x="788" y="1530" as="geometry" />
+        </mxCell>
+        <mxCell id="alt_2_control" data-kind="branch-label" parent="1" style="text;html=0;whiteSpace=wrap;overflow=visible;rounded=0;align=left;verticalAlign=middle;spacing=0;fontFamily=Arial, PingFang SC, Microsoft YaHei, sans-serif;fontSize=20;fontColor=#263238;fontStyle=1;fillColor=#E6F2FF;strokeColor=none;" value="[非实验组]" vertex="1">
+          <mxGeometry height="28" width="180" x="788" y="1693" as="geometry" />
+        </mxCell>
+        <mxCell id="alt_3_tab" parent="1" style="shape=rectangle;rounded=0;whiteSpace=wrap;html=0;fillColor=#F7FAFD;strokeColor=#6B7C90;strokeWidth=1.2;shadow=0;" value="" vertex="1">
+          <mxGeometry height="30" width="64" x="1030" y="2288" as="geometry" />
+        </mxCell>
+        <mxCell id="alt_3_tab_text" parent="1" style="text;html=0;whiteSpace=wrap;overflow=visible;rounded=0;align=center;verticalAlign=middle;spacing=0;fontFamily=Arial, PingFang SC, Microsoft YaHei, sans-serif;fontSize=18;fontColor=#263238;fontStyle=1;fillColor=none;strokeColor=none;" value="alt" vertex="1">
+          <mxGeometry height="30" width="64" x="1030" y="2288" as="geometry" />
+        </mxCell>
+        <mxCell id="alt_3_experiment" data-kind="branch-label" parent="1" style="text;html=0;whiteSpace=wrap;overflow=visible;rounded=0;align=left;verticalAlign=middle;spacing=0;fontFamily=Arial, PingFang SC, Microsoft YaHei, sans-serif;fontSize=20;fontColor=#263238;fontStyle=1;fillColor=#E6F2FF;strokeColor=none;" value="[实验组]" vertex="1">
+          <mxGeometry height="28" width="165" x="1108" y="2294" as="geometry" />
+        </mxCell>
+        <mxCell id="alt_3_control" data-kind="branch-label" parent="1" style="text;html=0;whiteSpace=wrap;overflow=visible;rounded=0;align=left;verticalAlign=middle;spacing=0;fontFamily=Arial, PingFang SC, Microsoft YaHei, sans-serif;fontSize=20;fontColor=#263238;fontStyle=1;fillColor=#E6F2FF;strokeColor=none;" value="[非实验组]" vertex="1">
+          <mxGeometry height="28" width="180" x="1108" y="2447" as="geometry" />
+        </mxCell>
+        <mxCell id="message_01" data-from="D" data-kind="message" data-section="0" data-sequence="1" data-text="滑动结束计费" data-to="A" edge="1" parent="1" source="message_01_source" style="edgeStyle=none;noEdgeStyle=1;rounded=0;curved=0;html=0;strokeColor=#263238;strokeWidth=1.6;startArrow=none;endArrow=block;endFill=1;endSize=9;dashed=0;dashPattern=5 4;fixDash=1;exitX=0.5;exitY=0.5;entryX=0.5;entryY=0.5;exitPerimeter=0;entryPerimeter=0;" target="message_01_target" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="188" y="238" as="sourcePoint" />
+            <mxPoint x="492" y="238" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="message_01_label" data-kind="message-label" parent="message_01" style="text;html=0;whiteSpace=wrap;overflow=visible;rounded=0;align=center;verticalAlign=middle;spacing=0;fontFamily=Arial, PingFang SC, Microsoft YaHei, sans-serif;fontSize=20;fontColor=#263238;fontStyle=0;fillColor=#FFFFFF;strokeColor=none;" value="滑动结束计费" vertex="1">
+          <mxGeometry height="28" relative="1" width="282" as="geometry">
+            <mxPoint x="-141" y="-36" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="message_02" data-from="A" data-kind="message" data-section="0" data-sequence="2" data-text="请求原拦截判定" data-to="C" edge="1" parent="1" source="message_02_source" style="edgeStyle=none;noEdgeStyle=1;rounded=0;curved=0;html=0;strokeColor=#263238;strokeWidth=1.6;startArrow=none;endArrow=block;endFill=1;endSize=9;dashed=0;dashPattern=5 4;fixDash=1;exitX=0.5;exitY=0.5;entryX=0.5;entryY=0.5;exitPerimeter=0;entryPerimeter=0;" target="message_02_target" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="508" y="294" as="sourcePoint" />
+            <mxPoint x="1132" y="294" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="message_02_label" data-kind="message-label" parent="message_02" style="text;html=0;whiteSpace=wrap;overflow=visible;rounded=0;align=center;verticalAlign=middle;spacing=0;fontFamily=Arial, PingFang SC, Microsoft YaHei, sans-serif;fontSize=20;fontColor=#263238;fontStyle=0;fillColor=#FFFFFF;strokeColor=none;" value="请求原拦截判定" vertex="1">
+          <mxGeometry height="28" relative="1" width="602" as="geometry">
+            <mxPoint x="-301" y="-36" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="message_03" data-from="C" data-kind="message" data-section="0" data-sequence="3" data-text="查询是否拦截及拦截场景" data-to="N" edge="1" parent="1" source="message_03_source" style="edgeStyle=none;noEdgeStyle=1;rounded=0;curved=0;html=0;strokeColor=#263238;strokeWidth=1.6;startArrow=none;endArrow=block;endFill=1;endSize=9;dashed=0;dashPattern=5 4;fixDash=1;exitX=0.5;exitY=0.5;entryX=0.5;entryY=0.5;exitPerimeter=0;entryPerimeter=0;" target="message_03_target" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1148" y="350" as="sourcePoint" />
+            <mxPoint x="1452" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="message_03_label" data-kind="message-label" parent="message_03" style="text;html=0;whiteSpace=wrap;overflow=visible;rounded=0;align=center;verticalAlign=middle;spacing=0;fontFamily=Arial, PingFang SC, Microsoft YaHei, sans-serif;fontSize=20;fontColor=#263238;fontStyle=0;fillColor=#FFFFFF;strokeColor=none;" value="查询是否拦截及拦截场景" vertex="1">
+          <mxGeometry height="28" relative="1" width="282" as="geometry">
+            <mxPoint x="-141" y="-36" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="message_04" data-from="N" data-kind="message" data-section="0" data-sequence="4" data-text="返回拦截判定结果" data-to="C" edge="1" parent="1" source="message_04_source" style="edgeStyle=none;noEdgeStyle=1;rounded=0;curved=0;html=0;strokeColor=#263238;strokeWidth=1.6;startArrow=none;endArrow=block;endFill=1;endSize=9;dashed=1;dashPattern=5 4;fixDash=1;exitX=0.5;exitY=0.5;entryX=0.5;entryY=0.5;exitPerimeter=0;entryPerimeter=0;" target="message_04_target" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1452" y="406" as="sourcePoint" />
+            <mxPoint x="1148" y="406" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="message_04_label" data-kind="message-label" parent="message_04" style="text;html=0;whiteSpace=wrap;overflow=visible;rounded=0;align=center;verticalAlign=middle;spacing=0;fontFamily=Arial, PingFang SC, Microsoft YaHei, sans-serif;fontSize=20;fontColor=#263238;fontStyle=0;fillColor=#FFFFFF;strokeColor=none;" value="返回拦截判定结果" vertex="1">
+          <mxGeometry height="28" relative="1" width="282" as="geometry">
+            <mxPoint x="-141" y="-36" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="message_05" data-from="C" data-kind="message" data-section="0" data-sequence="5" data-text="沿用价差、次数及规则判断" data-to="C" edge="1" parent="1" source="message_05_source" style="edgeStyle=none;noEdgeStyle=1;rounded=0;curved=0;html=0;strokeColor=#263238;strokeWidth=1.6;startArrow=none;endArrow=block;endFill=1;endSize=9;dashed=0;dashPattern=5 4;fixDash=1;exitX=0.5;exitY=0.5;entryX=0.5;entryY=0.5;exitPerimeter=0;entryPerimeter=0;" target="message_05_target" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1236" y="462" />
+              <mxPoint x="1236" y="498" />
+            </Array>
+            <mxPoint x="1148" y="462" as="sourcePoint" />
+            <mxPoint x="1148" y="498" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="message_05_label" data-kind="message-label" parent="message_05" style="text;html=0;whiteSpace=wrap;overflow=visible;rounded=0;align=center;verticalAlign=middle;spacing=0;fontFamily=Arial, PingFang SC, Microsoft YaHei, sans-serif;fontSize=20;fontColor=#263238;fontStyle=0;fillColor=#FFFFFF;strokeColor=none;" value="沿用价差、次数及规则判断" vertex="1">
+          <mxGeometry height="28" relative="1" width="274" as="geometry">
+            <mxPoint x="-72" y="-54" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="message_06" data-from="C" data-kind="message" data-section="0" data-sequence="6" data-text="命中后异步初始化拦截记录" data-to="M" edge="1" parent="1" source="message_06_source" style="edgeStyle=none;noEdgeStyle=1;rounded=0;curved=0;html=0;strokeColor=#263238;strokeWidth=1.6;startArrow=none;endArrow=block;endFill=1;endSize=9;dashed=0;dashPattern=5 4;fixDash=1;exitX=0.5;exitY=0.5;entryX=0.5;entryY=0.5;exitPerimeter=0;entryPerimeter=0;" target="message_06_target" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1148" y="552" as="sourcePoint" />
+            <mxPoint x="2092" y="552" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="message_06_label" data-kind="message-label" parent="message_06" style="text;html=0;whiteSpace=wrap;overflow=visible;rounded=0;align=center;verticalAlign=middle;spacing=0;fontFamily=Arial, PingFang SC, Microsoft YaHei, sans-serif;fontSize=20;fontColor=#263238;fontStyle=0;fillColor=#FFFFFF;strokeColor=none;" value="命中后异步初始化拦截记录" vertex="1">
+          <mxGeometry height="28" relative="1" width="922" as="geometry">
+            <mxPoint x="-461" y="-36" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="message_07" data-from="C" data-kind="message" data-section="0" data-sequence="7" data-text="返回H5链接" data-to="A" edge="1" parent="1" source="message_07_source" style="edgeStyle=none;noEdgeStyle=1;rounded=0;curved=0;html=0;strokeColor=#263238;strokeWidth=1.6;startArrow=none;endArrow=block;endFill=1;endSize=9;dashed=1;dashPattern=5 4;fixDash=1;exitX=0.5;exitY=0.5;entryX=0.5;entryY=0.5;exitPerimeter=0;entryPerimeter=0;" target="message_07_target" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1132" y="608" as="sourcePoint" />
+            <mxPoint x="508" y="608" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="message_07_label" data-kind="message-label" parent="message_07" style="text;html=0;whiteSpace=wrap;overflow=visible;rounded=0;align=center;verticalAlign=middle;spacing=0;fontFamily=Arial, PingFang SC, Microsoft YaHei, sans-serif;fontSize=20;fontColor=#263238;fontStyle=0;fillColor=#FFFFFF;strokeColor=none;" value="返回H5链接" vertex="1">
+          <mxGeometry height="28" relative="1" width="602" as="geometry">
+            <mxPoint x="-301" y="-36" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="message_08" data-from="A" data-kind="message" data-section="0" data-sequence="8" data-text="返回拦截信息" data-to="D" edge="1" parent="1" source="message_08_source" style="edgeStyle=none;noEdgeStyle=1;rounded=0;curved=0;html=0;strokeColor=#263238;strokeWidth=1.6;startArrow=none;endArrow=block;endFill=1;endSize=9;dashed=1;dashPattern=5 4;fixDash=1;exitX=0.5;exitY=0.5;entryX=0.5;entryY=0.5;exitPerimeter=0;entryPerimeter=0;" target="message_08_target" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="492" y="664" as="sourcePoint" />
+            <mxPoint x="188" y="664" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="message_08_label" data-kind="message-label" parent="message_08" style="text;html=0;whiteSpace=wrap;overflow=visible;rounded=0;align=center;verticalAlign=middle;spacing=0;fontFamily=Arial, PingFang SC, Microsoft YaHei, sans-serif;fontSize=20;fontColor=#263238;fontStyle=0;fillColor=#FFFFFF;strokeColor=none;" value="返回拦截信息" vertex="1">
+          <mxGeometry height="28" relative="1" width="282" as="geometry">
+            <mxPoint x="-141" y="-36" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="message_09" data-from="D" data-kind="message" data-section="0" data-sequence="9" data-text="打开拦截页" data-to="H" edge="1" parent="1" source="message_09_source" style="edgeStyle=none;noEdgeStyle=1;rounded=0;curved=0;html=0;strokeColor=#263238;strokeWidth=1.6;startArrow=none;endArrow=block;endFill=1;endSize=9;dashed=0;dashPattern=5 4;fixDash=1;exitX=0.5;exitY=0.5;entryX=0.5;entryY=0.5;exitPerimeter=0;entryPerimeter=0;" target="message_09_target" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="188" y="720" as="sourcePoint" />
+            <mxPoint x="812" y="720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="message_09_label" data-kind="message-label" parent="message_09" style="text;html=0;whiteSpace=wrap;overflow=visible;rounded=0;align=center;verticalAlign=middle;spacing=0;fontFamily=Arial, PingFang SC, Microsoft YaHei, sans-serif;fontSize=20;fontColor=#263238;fontStyle=0;fillColor=#FFFFFF;strokeColor=none;" value="打开拦截页" vertex="1">
+          <mxGeometry height="28" relative="1" width="602" as="geometry">
+            <mxPoint x="-301" y="-36" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="message_10" data-from="H" data-kind="message" data-section="0" data-sequence="10" data-text="请求 view.driver.intercept_page" data-to="C" edge="1" parent="1" source="message_10_source" style="edgeStyle=none;noEdgeStyle=1;rounded=0;curved=0;html=0;strokeColor=#263238;strokeWidth=1.6;startArrow=none;endArrow=block;endFill=1;endSize=9;dashed=0;dashPattern=5 4;fixDash=1;exitX=0.5;exitY=0.5;entryX=0.5;entryY=0.5;exitPerimeter=0;entryPerimeter=0;" target="message_10_target" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="828" y="788" as="sourcePoint" />
+            <mxPoint x="1132" y="788" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="message_10_label" data-kind="message-label" parent="message_10" style="text;html=0;whiteSpace=wrap;overflow=visible;rounded=0;align=center;verticalAlign=middle;spacing=0;fontFamily=Arial, PingFang SC, Microsoft YaHei, sans-serif;fontSize=20;fontColor=#263238;fontStyle=0;fillColor=#FFFFFF;strokeColor=none;" value="请求 &#xa;view.driver.intercept_page" vertex="1">
+          <mxGeometry height="56" relative="1" width="282" as="geometry">
+            <mxPoint x="-141" y="-64" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="message_11" data-from="C" data-kind="message" data-section="1" data-sequence="11" data-text="查询本次实验结果" data-to="AB" edge="1" parent="1" source="message_11_source" style="edgeStyle=none;noEdgeStyle=1;rounded=0;curved=0;html=0;strokeColor=#263238;strokeWidth=1.6;startArrow=none;endArrow=block;endFill=1;endSize=9;dashed=0;dashPattern=5 4;fixDash=1;exitX=0.5;exitY=0.5;entryX=0.5;entryY=0.5;exitPerimeter=0;entryPerimeter=0;" target="message_11_target" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1148" y="914" as="sourcePoint" />
+            <mxPoint x="1772" y="914" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="message_11_label" data-kind="message-label" parent="message_11" style="text;html=0;whiteSpace=wrap;overflow=visible;rounded=0;align=center;verticalAlign=middle;spacing=0;fontFamily=Arial, PingFang SC, Microsoft YaHei, sans-serif;fontSize=20;fontColor=#263238;fontStyle=0;fillColor=#E6F2FF;strokeColor=none;" value="查询本次实验结果" vertex="1">
+          <mxGeometry height="28" relative="1" width="602" as="geometry">
+            <mxPoint x="-301" y="-36" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="message_12" data-from="AB" data-kind="message" data-section="1" data-sequence="12" data-text="返回实验结果" data-to="C" edge="1" parent="1" source="message_12_source" style="edgeStyle=none;noEdgeStyle=1;rounded=0;curved=0;html=0;strokeColor=#263238;strokeWidth=1.6;startArrow=none;endArrow=block;endFill=1;endSize=9;dashed=1;dashPattern=5 4;fixDash=1;exitX=0.5;exitY=0.5;entryX=0.5;entryY=0.5;exitPerimeter=0;entryPerimeter=0;" target="message_12_target" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1772" y="970" as="sourcePoint" />
+            <mxPoint x="1148" y="970" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="message_12_label" data-kind="message-label" parent="message_12" style="text;html=0;whiteSpace=wrap;overflow=visible;rounded=0;align=center;verticalAlign=middle;spacing=0;fontFamily=Arial, PingFang SC, Microsoft YaHei, sans-serif;fontSize=20;fontColor=#263238;fontStyle=0;fillColor=#E6F2FF;strokeColor=none;" value="返回实验结果" vertex="1">
+          <mxGeometry height="28" relative="1" width="602" as="geometry">
+            <mxPoint x="-301" y="-36" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="message_13" data-from="C" data-kind="message" data-section="1" data-sequence="13" data-text="返回新按钮、新弹窗及表单数据" data-to="H" edge="1" parent="1" source="message_13_source" style="edgeStyle=none;noEdgeStyle=1;rounded=0;curved=0;html=0;strokeColor=#263238;strokeWidth=1.6;startArrow=none;endArrow=block;endFill=1;endSize=9;dashed=1;dashPattern=5 4;fixDash=1;exitX=0.5;exitY=0.5;entryX=0.5;entryY=0.5;exitPerimeter=0;entryPerimeter=0;" target="message_13_target" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1132" y="1102" as="sourcePoint" />
+            <mxPoint x="828" y="1102" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="message_13_label" data-kind="message-label" parent="message_13" style="text;html=0;whiteSpace=wrap;overflow=visible;rounded=0;align=center;verticalAlign=middle;spacing=0;fontFamily=Arial, PingFang SC, Microsoft YaHei, sans-serif;fontSize=20;fontColor=#263238;fontStyle=0;fillColor=#E6F2FF;strokeColor=none;" value="返回新按钮、新弹窗及表单数据" vertex="1">
+          <mxGeometry height="28" relative="1" width="282" as="geometry">
+            <mxPoint x="-141" y="-36" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="message_14" data-from="C" data-kind="message" data-section="1" data-sequence="14" data-text="返回原页面数据" data-to="H" edge="1" parent="1" source="message_14_source" style="edgeStyle=none;noEdgeStyle=1;rounded=0;curved=0;html=0;strokeColor=#263238;strokeWidth=1.6;startArrow=none;endArrow=block;endFill=1;endSize=9;dashed=1;dashPattern=5 4;fixDash=1;exitX=0.5;exitY=0.5;entryX=0.5;entryY=0.5;exitPerimeter=0;entryPerimeter=0;" target="message_14_target" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1132" y="1208" as="sourcePoint" />
+            <mxPoint x="828" y="1208" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="message_14_label" data-kind="message-label" parent="message_14" style="text;html=0;whiteSpace=wrap;overflow=visible;rounded=0;align=center;verticalAlign=middle;spacing=0;fontFamily=Arial, PingFang SC, Microsoft YaHei, sans-serif;fontSize=20;fontColor=#263238;fontStyle=0;fillColor=#E6F2FF;strokeColor=none;" value="返回原页面数据" vertex="1">
+          <mxGeometry height="28" relative="1" width="282" as="geometry">
+            <mxPoint x="-141" y="-36" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="message_15" data-from="H" data-kind="message" data-section="2" data-sequence="15" data-text="确认选择后，提交司机选择及原因" data-to="C" edge="1" parent="1" source="message_15_source" style="edgeStyle=none;noEdgeStyle=1;rounded=0;curved=0;html=0;strokeColor=#263238;strokeWidth=1.6;startArrow=none;endArrow=block;endFill=1;endSize=9;dashed=0;dashPattern=5 4;fixDash=1;exitX=0.5;exitY=0.5;entryX=0.5;entryY=0.5;exitPerimeter=0;entryPerimeter=0;" target="message_15_target" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="828" y="1402" as="sourcePoint" />
+            <mxPoint x="1132" y="1402" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="message_15_label" data-kind="message-label" parent="message_15" style="text;html=0;whiteSpace=wrap;overflow=visible;rounded=0;align=center;verticalAlign=middle;spacing=0;fontFamily=Arial, PingFang SC, Microsoft YaHei, sans-serif;fontSize=20;fontColor=#263238;fontStyle=0;fillColor=#E6F2FF;strokeColor=none;" value="确认选择后，&#xa;提交司机选择及原因" vertex="1">
+          <mxGeometry height="56" relative="1" width="282" as="geometry">
+            <mxPoint x="-141" y="-64" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="message_16" data-from="C" data-kind="message" data-section="2" data-sequence="16" data-text="判断该订单实验结果" data-to="C" edge="1" parent="1" source="message_16_source" style="edgeStyle=none;noEdgeStyle=1;rounded=0;curved=0;html=0;strokeColor=#263238;strokeWidth=1.6;startArrow=none;endArrow=block;endFill=1;endSize=9;dashed=0;dashPattern=5 4;fixDash=1;exitX=0.5;exitY=0.5;entryX=0.5;entryY=0.5;exitPerimeter=0;entryPerimeter=0;" target="message_16_target" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1236" y="1458" />
+              <mxPoint x="1236" y="1494" />
+            </Array>
+            <mxPoint x="1148" y="1458" as="sourcePoint" />
+            <mxPoint x="1148" y="1494" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="message_16_label" data-kind="message-label" parent="message_16" style="text;html=0;whiteSpace=wrap;overflow=visible;rounded=0;align=center;verticalAlign=middle;spacing=0;fontFamily=Arial, PingFang SC, Microsoft YaHei, sans-serif;fontSize=20;fontColor=#263238;fontStyle=0;fillColor=#E6F2FF;strokeColor=none;" value="判断该订单实验结果" vertex="1">
+          <mxGeometry height="28" relative="1" width="274" as="geometry">
+            <mxPoint x="-72" y="-54" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="message_17" data-from="C" data-kind="message" data-section="2" data-sequence="17" data-text="保存选择、原因、多选项及补充描述" data-to="M" edge="1" parent="1" source="message_17_source" style="edgeStyle=none;noEdgeStyle=1;rounded=0;curved=0;html=0;strokeColor=#263238;strokeWidth=1.6;startArrow=none;endArrow=block;endFill=1;endSize=9;dashed=0;dashPattern=5 4;fixDash=1;exitX=0.5;exitY=0.5;entryX=0.5;entryY=0.5;exitPerimeter=0;entryPerimeter=0;" target="message_17_target" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1148" y="1602" as="sourcePoint" />
+            <mxPoint x="2092" y="1602" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="message_17_label" data-kind="message-label" parent="message_17" style="text;html=0;whiteSpace=wrap;overflow=visible;rounded=0;align=center;verticalAlign=middle;spacing=0;fontFamily=Arial, PingFang SC, Microsoft YaHei, sans-serif;fontSize=20;fontColor=#263238;fontStyle=0;fillColor=#E6F2FF;strokeColor=none;" value="保存选择、原因、多选项及补充描述" vertex="1">
+          <mxGeometry height="28" relative="1" width="922" as="geometry">
+            <mxPoint x="-461" y="-36" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="message_18" data-from="C" data-kind="message" data-section="2" data-sequence="18" data-text="返回更新结果" data-to="H" edge="1" parent="1" source="message_18_source" style="edgeStyle=none;noEdgeStyle=1;rounded=0;curved=0;html=0;strokeColor=#263238;strokeWidth=1.6;startArrow=none;endArrow=block;endFill=1;endSize=9;dashed=1;dashPattern=5 4;fixDash=1;exitX=0.5;exitY=0.5;entryX=0.5;entryY=0.5;exitPerimeter=0;entryPerimeter=0;" target="message_18_target" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1132" y="1660" as="sourcePoint" />
+            <mxPoint x="828" y="1660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="message_18_label" data-kind="message-label" parent="message_18" style="text;html=0;whiteSpace=wrap;overflow=visible;rounded=0;align=center;verticalAlign=middle;spacing=0;fontFamily=Arial, PingFang SC, Microsoft YaHei, sans-serif;fontSize=20;fontColor=#263238;fontStyle=0;fillColor=#E6F2FF;strokeColor=none;" value="返回更新结果" vertex="1">
+          <mxGeometry height="28" relative="1" width="282" as="geometry">
+            <mxPoint x="-141" y="-36" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="message_19" data-from="C" data-kind="message" data-section="2" data-sequence="19" data-text="返回成功" data-to="H" edge="1" parent="1" source="message_19_source" style="edgeStyle=none;noEdgeStyle=1;rounded=0;curved=0;html=0;strokeColor=#263238;strokeWidth=1.6;startArrow=none;endArrow=block;endFill=1;endSize=9;dashed=1;dashPattern=5 4;fixDash=1;exitX=0.5;exitY=0.5;entryX=0.5;entryY=0.5;exitPerimeter=0;entryPerimeter=0;" target="message_19_target" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1132" y="1774" as="sourcePoint" />
+            <mxPoint x="828" y="1774" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="message_19_label" data-kind="message-label" parent="message_19" style="text;html=0;whiteSpace=wrap;overflow=visible;rounded=0;align=center;verticalAlign=middle;spacing=0;fontFamily=Arial, PingFang SC, Microsoft YaHei, sans-serif;fontSize=20;fontColor=#263238;fontStyle=0;fillColor=#E6F2FF;strokeColor=none;" value="返回成功" vertex="1">
+          <mxGeometry height="28" relative="1" width="282" as="geometry">
+            <mxPoint x="-141" y="-36" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="message_20" data-from="H" data-kind="message" data-section="0" data-sequence="20" data-text="沿用原bridge传递选择" data-to="D" edge="1" parent="1" source="message_20_source" style="edgeStyle=none;noEdgeStyle=1;rounded=0;curved=0;html=0;strokeColor=#263238;strokeWidth=1.6;startArrow=none;endArrow=block;endFill=1;endSize=9;dashed=0;dashPattern=5 4;fixDash=1;exitX=0.5;exitY=0.5;entryX=0.5;entryY=0.5;exitPerimeter=0;entryPerimeter=0;" target="message_20_target" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="812" y="1878" as="sourcePoint" />
+            <mxPoint x="188" y="1878" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="message_20_label" data-kind="message-label" parent="message_20" style="text;html=0;whiteSpace=wrap;overflow=visible;rounded=0;align=center;verticalAlign=middle;spacing=0;fontFamily=Arial, PingFang SC, Microsoft YaHei, sans-serif;fontSize=20;fontColor=#263238;fontStyle=0;fillColor=#FFFFFF;strokeColor=none;" value="沿用原bridge传递选择" vertex="1">
+          <mxGeometry height="28" relative="1" width="602" as="geometry">
+            <mxPoint x="-301" y="-36" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="message_21" data-from="D" data-kind="message" data-section="0" data-sequence="21" data-text="沿用原结束计费、发起收款流程" data-to="A" edge="1" parent="1" source="message_21_source" style="edgeStyle=none;noEdgeStyle=1;rounded=0;curved=0;html=0;strokeColor=#263238;strokeWidth=1.6;startArrow=none;endArrow=block;endFill=1;endSize=9;dashed=0;dashPattern=5 4;fixDash=1;exitX=0.5;exitY=0.5;entryX=0.5;entryY=0.5;exitPerimeter=0;entryPerimeter=0;" target="message_21_target" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="188" y="1948" as="sourcePoint" />
+            <mxPoint x="492" y="1948" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="message_21_label" data-kind="message-label" parent="message_21" style="text;html=0;whiteSpace=wrap;overflow=visible;rounded=0;align=center;verticalAlign=middle;spacing=0;fontFamily=Arial, PingFang SC, Microsoft YaHei, sans-serif;fontSize=20;fontColor=#263238;fontStyle=0;fillColor=#FFFFFF;strokeColor=none;" value="沿用原结束计费、发起收款流程" vertex="1">
+          <mxGeometry height="28" relative="1" width="282" as="geometry">
+            <mxPoint x="-141" y="-36" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="message_22" data-from="A" data-kind="message" data-section="0" data-sequence="22" data-text="完成原计费及完单处理" data-to="A" edge="1" parent="1" source="message_22_source" style="edgeStyle=none;noEdgeStyle=1;rounded=0;curved=0;html=0;strokeColor=#263238;strokeWidth=1.6;startArrow=none;endArrow=block;endFill=1;endSize=9;dashed=0;dashPattern=5 4;fixDash=1;exitX=0.5;exitY=0.5;entryX=0.5;entryY=0.5;exitPerimeter=0;entryPerimeter=0;" target="message_22_target" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="596" y="2004" />
+              <mxPoint x="596" y="2040" />
+            </Array>
+            <mxPoint x="508" y="2004" as="sourcePoint" />
+            <mxPoint x="508" y="2040" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="message_22_label" data-kind="message-label" parent="message_22" style="text;html=0;whiteSpace=wrap;overflow=visible;rounded=0;align=center;verticalAlign=middle;spacing=0;fontFamily=Arial, PingFang SC, Microsoft YaHei, sans-serif;fontSize=20;fontColor=#263238;fontStyle=0;fillColor=#FFFFFF;strokeColor=none;" value="完成原计费及完单处理" vertex="1">
+          <mxGeometry height="28" relative="1" width="274" as="geometry">
+            <mxPoint x="-72" y="-54" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="message_23" data-from="A" data-kind="message" data-section="0" data-sequence="23" data-text="通过原完单消息触发回调" data-to="C" edge="1" parent="1" source="message_23_source" style="edgeStyle=none;noEdgeStyle=1;rounded=0;curved=0;html=0;strokeColor=#263238;strokeWidth=1.6;startArrow=none;endArrow=block;endFill=1;endSize=9;dashed=1;dashPattern=5 4;fixDash=1;exitX=0.5;exitY=0.5;entryX=0.5;entryY=0.5;exitPerimeter=0;entryPerimeter=0;" target="message_23_target" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="508" y="2100" as="sourcePoint" />
+            <mxPoint x="1132" y="2100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="message_23_label" data-kind="message-label" parent="message_23" style="text;html=0;whiteSpace=wrap;overflow=visible;rounded=0;align=center;verticalAlign=middle;spacing=0;fontFamily=Arial, PingFang SC, Microsoft YaHei, sans-serif;fontSize=20;fontColor=#263238;fontStyle=0;fillColor=#FFFFFF;strokeColor=none;" value="通过原完单消息触发回调" vertex="1">
+          <mxGeometry height="28" relative="1" width="602" as="geometry">
+            <mxPoint x="-301" y="-36" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="message_24" data-from="C" data-kind="message" data-section="3" data-sequence="24" data-text="判断该订单实验结果" data-to="C" edge="1" parent="1" source="message_24_source" style="edgeStyle=none;noEdgeStyle=1;rounded=0;curved=0;html=0;strokeColor=#263238;strokeWidth=1.6;startArrow=none;endArrow=block;endFill=1;endSize=9;dashed=0;dashPattern=5 4;fixDash=1;exitX=0.5;exitY=0.5;entryX=0.5;entryY=0.5;exitPerimeter=0;entryPerimeter=0;" target="message_24_target" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1236" y="2228" />
+              <mxPoint x="1236" y="2264" />
+            </Array>
+            <mxPoint x="1148" y="2228" as="sourcePoint" />
+            <mxPoint x="1148" y="2264" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="message_24_label" data-kind="message-label" parent="message_24" style="text;html=0;whiteSpace=wrap;overflow=visible;rounded=0;align=center;verticalAlign=middle;spacing=0;fontFamily=Arial, PingFang SC, Microsoft YaHei, sans-serif;fontSize=20;fontColor=#263238;fontStyle=0;fillColor=#E6F2FF;strokeColor=none;" value="判断该订单实验结果" vertex="1">
+          <mxGeometry height="28" relative="1" width="274" as="geometry">
+            <mxPoint x="-72" y="-54" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="message_25" data-from="C" data-kind="message" data-section="3" data-sequence="25" data-text="仅更新账单字段" data-to="M" edge="1" parent="1" source="message_25_source" style="edgeStyle=none;noEdgeStyle=1;rounded=0;curved=0;html=0;strokeColor=#263238;strokeWidth=1.6;startArrow=none;endArrow=block;endFill=1;endSize=9;dashed=0;dashPattern=5 4;fixDash=1;exitX=0.5;exitY=0.5;entryX=0.5;entryY=0.5;exitPerimeter=0;entryPerimeter=0;" target="message_25_target" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1148" y="2360" as="sourcePoint" />
+            <mxPoint x="2092" y="2360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="message_25_label" data-kind="message-label" parent="message_25" style="text;html=0;whiteSpace=wrap;overflow=visible;rounded=0;align=center;verticalAlign=middle;spacing=0;fontFamily=Arial, PingFang SC, Microsoft YaHei, sans-serif;fontSize=20;fontColor=#263238;fontStyle=0;fillColor=#E6F2FF;strokeColor=none;" value="仅更新账单字段" vertex="1">
+          <mxGeometry height="28" relative="1" width="922" as="geometry">
+            <mxPoint x="-461" y="-36" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="message_26" data-from="C" data-kind="message" data-section="3" data-sequence="26" data-text="按原逻辑更新选择、原因及账单字段" data-to="M" edge="1" parent="1" source="message_26_source" style="edgeStyle=none;noEdgeStyle=1;rounded=0;curved=0;html=0;strokeColor=#263238;strokeWidth=1.6;startArrow=none;endArrow=block;endFill=1;endSize=9;dashed=0;dashPattern=5 4;fixDash=1;exitX=0.5;exitY=0.5;entryX=0.5;entryY=0.5;exitPerimeter=0;entryPerimeter=0;" target="message_26_target" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1148" y="2512" as="sourcePoint" />
+            <mxPoint x="2092" y="2512" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="message_26_label" data-kind="message-label" parent="message_26" style="text;html=0;whiteSpace=wrap;overflow=visible;rounded=0;align=center;verticalAlign=middle;spacing=0;fontFamily=Arial, PingFang SC, Microsoft YaHei, sans-serif;fontSize=20;fontColor=#263238;fontStyle=0;fillColor=#E6F2FF;strokeColor=none;" value="按原逻辑更新选择、原因及账单字段" vertex="1">
+          <mxGeometry height="28" relative="1" width="922" as="geometry">
+            <mxPoint x="-461" y="-36" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="message_27" data-from="C" data-kind="message" data-section="0" data-sequence="27" data-text="保留回调中的原有其他处理" data-to="C" edge="1" parent="1" source="message_27_source" style="edgeStyle=none;noEdgeStyle=1;rounded=0;curved=0;html=0;strokeColor=#263238;strokeWidth=1.6;startArrow=none;endArrow=block;endFill=1;endSize=9;dashed=0;dashPattern=5 4;fixDash=1;exitX=0.5;exitY=0.5;entryX=0.5;entryY=0.5;exitPerimeter=0;entryPerimeter=0;" target="message_27_target" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1236" y="2614" />
+              <mxPoint x="1236" y="2650" />
+            </Array>
+            <mxPoint x="1148" y="2614" as="sourcePoint" />
+            <mxPoint x="1148" y="2650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="message_27_label" data-kind="message-label" parent="message_27" style="text;html=0;whiteSpace=wrap;overflow=visible;rounded=0;align=center;verticalAlign=middle;spacing=0;fontFamily=Arial, PingFang SC, Microsoft YaHei, sans-serif;fontSize=20;fontColor=#263238;fontStyle=0;fillColor=#FFFFFF;strokeColor=none;" value="保留回调中的原有其他处理" vertex="1">
+          <mxGeometry height="28" relative="1" width="274" as="geometry">
+            <mxPoint x="-72" y="-54" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="message_28" data-from="T" data-kind="message" data-section="4" data-sequence="28" data-text="按订单查询" data-to="C" edge="1" parent="1" source="message_28_source" style="edgeStyle=none;noEdgeStyle=1;rounded=0;curved=0;html=0;strokeColor=#263238;strokeWidth=1.6;startArrow=none;endArrow=block;endFill=1;endSize=9;dashed=0;dashPattern=5 4;fixDash=1;exitX=0.5;exitY=0.5;entryX=0.5;entryY=0.5;exitPerimeter=0;entryPerimeter=0;" target="message_28_target" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2412" y="2804" as="sourcePoint" />
+            <mxPoint x="1148" y="2804" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="message_28_label" data-kind="message-label" parent="message_28" style="text;html=0;whiteSpace=wrap;overflow=visible;rounded=0;align=center;verticalAlign=middle;spacing=0;fontFamily=Arial, PingFang SC, Microsoft YaHei, sans-serif;fontSize=20;fontColor=#263238;fontStyle=0;fillColor=#E6F2FF;strokeColor=none;" value="按订单查询" vertex="1">
+          <mxGeometry height="28" relative="1" width="1242" as="geometry">
+            <mxPoint x="-621" y="-36" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="message_29" data-from="C" data-kind="message" data-section="4" data-sequence="29" data-text="查询拦截记录" data-to="M" edge="1" parent="1" source="message_29_source" style="edgeStyle=none;noEdgeStyle=1;rounded=0;curved=0;html=0;strokeColor=#263238;strokeWidth=1.6;startArrow=none;endArrow=block;endFill=1;endSize=9;dashed=0;dashPattern=5 4;fixDash=1;exitX=0.5;exitY=0.5;entryX=0.5;entryY=0.5;exitPerimeter=0;entryPerimeter=0;" target="message_29_target" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1148" y="2864" as="sourcePoint" />
+            <mxPoint x="2092" y="2864" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="message_29_label" data-kind="message-label" parent="message_29" style="text;html=0;whiteSpace=wrap;overflow=visible;rounded=0;align=center;verticalAlign=middle;spacing=0;fontFamily=Arial, PingFang SC, Microsoft YaHei, sans-serif;fontSize=20;fontColor=#263238;fontStyle=0;fillColor=#E6F2FF;strokeColor=none;" value="查询拦截记录" vertex="1">
+          <mxGeometry height="28" relative="1" width="922" as="geometry">
+            <mxPoint x="-461" y="-36" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="message_30" data-from="M" data-kind="message" data-section="4" data-sequence="30" data-text="返回已有记录" data-to="C" edge="1" parent="1" source="message_30_source" style="edgeStyle=none;noEdgeStyle=1;rounded=0;curved=0;html=0;strokeColor=#263238;strokeWidth=1.6;startArrow=none;endArrow=block;endFill=1;endSize=9;dashed=1;dashPattern=5 4;fixDash=1;exitX=0.5;exitY=0.5;entryX=0.5;entryY=0.5;exitPerimeter=0;entryPerimeter=0;" target="message_30_target" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2092" y="2924" as="sourcePoint" />
+            <mxPoint x="1148" y="2924" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="message_30_label" data-kind="message-label" parent="message_30" style="text;html=0;whiteSpace=wrap;overflow=visible;rounded=0;align=center;verticalAlign=middle;spacing=0;fontFamily=Arial, PingFang SC, Microsoft YaHei, sans-serif;fontSize=20;fontColor=#263238;fontStyle=0;fillColor=#E6F2FF;strokeColor=none;" value="返回已有记录" vertex="1">
+          <mxGeometry height="28" relative="1" width="922" as="geometry">
+            <mxPoint x="-461" y="-36" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="message_31" data-from="C" data-kind="message" data-section="4" data-sequence="31" data-text="结合订单信息识别随心接" data-to="C" edge="1" parent="1" source="message_31_source" style="edgeStyle=none;noEdgeStyle=1;rounded=0;curved=0;html=0;strokeColor=#263238;strokeWidth=1.6;startArrow=none;endArrow=block;endFill=1;endSize=9;dashed=0;dashPattern=5 4;fixDash=1;exitX=0.5;exitY=0.5;entryX=0.5;entryY=0.5;exitPerimeter=0;entryPerimeter=0;" target="message_31_target" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1236" y="2984" />
+              <mxPoint x="1236" y="3020" />
+            </Array>
+            <mxPoint x="1148" y="2984" as="sourcePoint" />
+            <mxPoint x="1148" y="3020" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="message_31_label" data-kind="message-label" parent="message_31" style="text;html=0;whiteSpace=wrap;overflow=visible;rounded=0;align=center;verticalAlign=middle;spacing=0;fontFamily=Arial, PingFang SC, Microsoft YaHei, sans-serif;fontSize=20;fontColor=#263238;fontStyle=0;fillColor=#E6F2FF;strokeColor=none;" value="结合订单信息识别随心接" vertex="1">
+          <mxGeometry height="28" relative="1" width="274" as="geometry">
+            <mxPoint x="-72" y="-54" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="message_32" data-from="C" data-kind="message" data-section="4" data-sequence="32" data-text="返回订单性质、拦截状态及原因详情" data-to="T" edge="1" parent="1" source="message_32_source" style="edgeStyle=none;noEdgeStyle=1;rounded=0;curved=0;html=0;strokeColor=#263238;strokeWidth=1.6;startArrow=none;endArrow=block;endFill=1;endSize=9;dashed=1;dashPattern=5 4;fixDash=1;exitX=0.5;exitY=0.5;entryX=0.5;entryY=0.5;exitPerimeter=0;entryPerimeter=0;" target="message_32_target" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1148" y="3074" as="sourcePoint" />
+            <mxPoint x="2412" y="3074" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="message_32_label" data-kind="message-label" parent="message_32" style="text;html=0;whiteSpace=wrap;overflow=visible;rounded=0;align=center;verticalAlign=middle;spacing=0;fontFamily=Arial, PingFang SC, Microsoft YaHei, sans-serif;fontSize=20;fontColor=#263238;fontStyle=0;fillColor=#E6F2FF;strokeColor=none;" value="返回订单性质、拦截状态及原因详情" vertex="1">
+          <mxGeometry height="28" relative="1" width="1242" as="geometry">
+            <mxPoint x="-621" y="-36" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="note_no_write_box" data-kind="note-box" parent="1" style="shape=rectangle;rounded=0;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#9FB9D3;strokeWidth=1.1;shadow=0;" value="" vertex="1">
+          <mxGeometry height="38" width="540" x="1340" y="1724" as="geometry" />
+        </mxCell>
+        <mxCell id="note_no_write" data-kind="supplement-note" parent="1" style="text;html=0;whiteSpace=wrap;overflow=visible;rounded=0;align=center;verticalAlign=middle;spacing=0;fontFamily=Arial, PingFang SC, Microsoft YaHei, sans-serif;fontSize=20;fontColor=#355575;fontStyle=1;fillColor=none;strokeColor=none;" value="不更新表" vertex="1">
+          <mxGeometry height="38" width="520" x="1350" y="1724" as="geometry" />
+        </mxCell>
+        <mxCell id="note_keep_choice_box" data-kind="note-box" parent="1" style="shape=rectangle;rounded=0;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#9FB9D3;strokeWidth=1.1;shadow=0;" value="" vertex="1">
+          <mxGeometry height="38" width="610" x="1330" y="2384" as="geometry" />
+        </mxCell>
+        <mxCell id="note_keep_choice" data-kind="supplement-note" parent="1" style="text;html=0;whiteSpace=wrap;overflow=visible;rounded=0;align=center;verticalAlign=middle;spacing=0;fontFamily=Arial, PingFang SC, Microsoft YaHei, sans-serif;fontSize=20;fontColor=#355575;fontStyle=1;fillColor=none;strokeColor=none;" value="保留H5提前保存的选择和原因" vertex="1">
+          <mxGeometry height="38" width="590" x="1340" y="2384" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
