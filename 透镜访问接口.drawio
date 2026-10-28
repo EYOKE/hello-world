@@ -1,0 +1,144 @@
+<mxfile host="app.diagrams.net">
+  <diagram id="order-detour-sequence" name="Page-1">
+    <mxGraphModel dx="1349" dy="921" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1240" pageHeight="930" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="new-query-region" parent="1" style="rounded=0;strokeColor=none;fillColor=#E6F2FF;" value="" vertex="1">
+          <mxGeometry height="310" width="605" x="590" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="lifeline-0" edge="1" parent="1" style="edgeStyle=none;rounded=0;html=0;strokeWidth=1;strokeColor=#777777;endArrow=none;endFill=1;dashed=1;dashPattern=6 4;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="120" y="85" as="sourcePoint" />
+            <mxPoint x="120" y="865" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="participant-0-top" parent="1" style="rounded=0;strokeColor=#666666;fillColor=#ECECFF;align=center;verticalAlign=middle;fontFamily=Noto Sans CJK SC;fontSize=17;fontColor=#222222;whiteSpace=wrap;html=0;" value="透镜服务端" vertex="1">
+          <mxGeometry height="50" width="150" x="45" y="35" as="geometry" />
+        </mxCell>
+        <mxCell id="participant-0-bottom" parent="1" style="rounded=0;strokeColor=#666666;fillColor=#ECECFF;align=center;verticalAlign=middle;fontFamily=Noto Sans CJK SC;fontSize=17;fontColor=#222222;whiteSpace=wrap;html=0;" value="透镜服务端" vertex="1">
+          <mxGeometry height="50" width="150" x="45" y="865" as="geometry" />
+        </mxCell>
+        <mxCell id="lifeline-1" edge="1" parent="1" style="edgeStyle=none;rounded=0;html=0;strokeWidth=1;strokeColor=#777777;endArrow=none;endFill=1;dashed=1;dashPattern=6 4;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="420" y="85" as="sourcePoint" />
+            <mxPoint x="420" y="865" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="participant-1-top" parent="1" style="rounded=0;strokeColor=#6c8ebf;fillColor=#dae8fc;align=center;verticalAlign=middle;fontFamily=Noto Sans CJK SC;fontSize=17;whiteSpace=wrap;html=0;" value="门神" vertex="1">
+          <mxGeometry height="50" width="150" x="345" y="35" as="geometry" />
+        </mxCell>
+        <mxCell id="participant-1-bottom" parent="1" style="rounded=0;strokeColor=#6c8ebf;fillColor=#dae8fc;align=center;verticalAlign=middle;fontFamily=Noto Sans CJK SC;fontSize=17;whiteSpace=wrap;html=0;" value="门神" vertex="1">
+          <mxGeometry height="50" width="150" x="345" y="865" as="geometry" />
+        </mxCell>
+        <mxCell id="lifeline-2" edge="1" parent="1" style="edgeStyle=none;rounded=0;html=0;strokeWidth=1;strokeColor=#777777;endArrow=none;endFill=1;dashed=1;dashPattern=6 4;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="720" y="85" as="sourcePoint" />
+            <mxPoint x="720" y="865" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="participant-2-top" parent="1" style="rounded=0;strokeColor=#82b366;fillColor=#d5e8d4;align=center;verticalAlign=middle;fontFamily=Noto Sans CJK SC;fontSize=17;whiteSpace=wrap;html=0;" value="core-api" vertex="1">
+          <mxGeometry height="50" width="150" x="645" y="35" as="geometry" />
+        </mxCell>
+        <mxCell id="participant-2-bottom" parent="1" style="rounded=0;strokeColor=#82b366;fillColor=#d5e8d4;align=center;verticalAlign=middle;fontFamily=Noto Sans CJK SC;fontSize=17;whiteSpace=wrap;html=0;" value="core-api" vertex="1">
+          <mxGeometry height="50" width="150" x="645" y="865" as="geometry" />
+        </mxCell>
+        <mxCell id="lifeline-3" edge="1" parent="1" style="edgeStyle=none;rounded=0;html=0;strokeWidth=1;strokeColor=#777777;endArrow=none;endFill=1;dashed=1;dashPattern=6 4;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1050" y="85" as="sourcePoint" />
+            <mxPoint x="1050" y="865" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="participant-3-top" parent="1" style="rounded=0;strokeColor=#d79b00;fillColor=#ffe6cc;align=center;verticalAlign=middle;fontFamily=Noto Sans CJK SC;fontSize=17;whiteSpace=wrap;html=0;" value="MySQL" vertex="1">
+          <mxGeometry height="50" width="150" x="975" y="35" as="geometry" />
+        </mxCell>
+        <mxCell id="participant-3-bottom" parent="1" style="rounded=0;strokeColor=#d79b00;fillColor=#ffe6cc;align=center;verticalAlign=middle;fontFamily=Noto Sans CJK SC;fontSize=17;whiteSpace=wrap;html=0;" value="MySQL" vertex="1">
+          <mxGeometry height="50" width="150" x="975" y="865" as="geometry" />
+        </mxCell>
+        <mxCell id="query-note" parent="1" style="shape=note;size=14;strokeColor=#666666;fillColor=#FFF5AD;align=center;verticalAlign=middle;fontFamily=Noto Sans CJK SC;fontSize=17;fontColor=#222222;whiteSpace=wrap;html=0;" value="蓝色区域为本次新增查询逻辑" vertex="1">
+          <mxGeometry height="42" width="410" x="680" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="message-query" edge="1" parent="1" style="edgeStyle=none;rounded=0;html=0;strokeWidth=1;strokeColor=#333333;endArrow=block;endFill=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="120" y="140" as="sourcePoint" />
+            <mxPoint x="420" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="label-query" parent="1" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontFamily=Noto Sans CJK SC;fontSize=17;fontColor=#222222;whiteSpace=wrap;html=0;" value="查询订单绕路拦截信息" vertex="1">
+          <mxGeometry height="29" width="300" x="120" y="107" as="geometry" />
+        </mxCell>
+        <mxCell id="message-forward" edge="1" parent="1" style="edgeStyle=none;rounded=0;html=0;strokeWidth=1;strokeColor=#333333;endArrow=block;endFill=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="420" y="195" as="sourcePoint" />
+            <mxPoint x="720" y="195" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="label-forward" parent="1" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontFamily=Noto Sans CJK SC;fontSize=17;fontColor=#222222;whiteSpace=wrap;html=0;" value="转发订单标识及 view_key" vertex="1">
+          <mxGeometry height="29" width="300" x="420" y="162" as="geometry" />
+        </mxCell>
+        <mxCell id="message-records" edge="1" parent="1" style="edgeStyle=none;rounded=0;html=0;strokeWidth=1;strokeColor=#333333;endArrow=block;endFill=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="720" y="330" as="sourcePoint" />
+            <mxPoint x="1050" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="label-records" parent="1" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontFamily=Noto Sans CJK SC;fontSize=17;fontColor=#222222;whiteSpace=wrap;html=0;" value="查询对应绕路拦截记录" vertex="1">
+          <mxGeometry height="29" width="330" x="720" y="297" as="geometry" />
+        </mxCell>
+        <mxCell id="message-records-result" edge="1" parent="1" style="edgeStyle=none;rounded=0;html=0;strokeWidth=1;strokeColor=#333333;endArrow=block;endFill=1;dashed=1;dashPattern=6 4;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1050" y="390" as="sourcePoint" />
+            <mxPoint x="720" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="label-records-result" parent="1" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontFamily=Noto Sans CJK SC;fontSize=17;fontColor=#222222;whiteSpace=wrap;html=0;" value="返回记录或无记录" vertex="1">
+          <mxGeometry height="29" width="330" x="720" y="357" as="geometry" />
+        </mxCell>
+        <mxCell id="message-parse" edge="1" parent="1" style="edgeStyle=none;rounded=0;html=0;strokeWidth=1;strokeColor=#333333;endArrow=block;endFill=1;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1030" y="465" />
+              <mxPoint x="1030" y="490" />
+            </Array>
+            <mxPoint x="720" y="465" as="sourcePoint" />
+            <mxPoint x="720" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="label-parse" parent="1" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontFamily=Noto Sans CJK SC;fontSize=17;fontColor=#222222;whiteSpace=wrap;html=0;" value="识别主原因，解析 extra_info" vertex="1">
+          <mxGeometry height="29" width="310" x="720" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="message-status" edge="1" parent="1" style="edgeStyle=none;rounded=0;html=0;strokeWidth=1;strokeColor=#333333;endArrow=block;endFill=1;dashed=1;dashPattern=6 4;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="720" y="630" as="sourcePoint" />
+            <mxPoint x="420" y="630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="label-status" parent="1" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontFamily=Noto Sans CJK SC;fontSize=17;fontColor=#222222;whiteSpace=wrap;html=0;" value="返回拦截状态及选择信息" vertex="1">
+          <mxGeometry height="29" width="300" x="420" y="570" as="geometry" />
+        </mxCell>
+        <mxCell id="message-result" edge="1" parent="1" style="edgeStyle=none;rounded=0;html=0;strokeWidth=1;strokeColor=#333333;endArrow=block;endFill=1;dashed=1;dashPattern=6 4;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="420" y="710" as="sourcePoint" />
+            <mxPoint x="120" y="710" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="label-result" parent="1" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontFamily=Noto Sans CJK SC;fontSize=17;fontColor=#222222;whiteSpace=wrap;html=0;" value="返回查询结果" vertex="1">
+          <mxGeometry height="29" width="300" x="120" y="677" as="geometry" />
+        </mxCell>
+        <mxCell id="message-display" edge="1" parent="1" style="edgeStyle=none;rounded=0;html=0;strokeWidth=1;strokeColor=#333333;endArrow=block;endFill=1;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="400" y="790" />
+              <mxPoint x="400" y="825" />
+            </Array>
+            <mxPoint x="120" y="790" as="sourcePoint" />
+            <mxPoint x="120" y="825" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="label-display" parent="1" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontFamily=Noto Sans CJK SC;fontSize=17;fontColor=#222222;whiteSpace=wrap;html=0;" value="展示拦截状态、原因及补充文本" vertex="1">
+          <mxGeometry height="29" width="280" x="120" y="755" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
