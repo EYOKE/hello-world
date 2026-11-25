@@ -1,0 +1,248 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="大禹先匹配16-1105" id="filtering-dayu-16-1105">
+    <mxGraphModel dx="2128" dy="1744" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2250" pageHeight="2370" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="A" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#E4F0E2;strokeColor=#739C67;strokeWidth=2;fontFamily=PingFang SC;fontSize=24;fontColor=#243447;spacing=10;" value="获取司机 ID" vertex="1">
+          <mxGeometry height="75" width="360" x="850" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="B" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E7F0FB;strokeColor=#5D7FA6;strokeWidth=2;fontFamily=PingFang SC;fontSize=24;fontColor=#243447;spacing=10;" value="查询封禁记录&lt;br&gt;动作 4" vertex="1">
+          <mxGeometry height="95" width="420" x="90" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="B1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E7F0FB;strokeColor=#5D7FA6;strokeWidth=2;fontFamily=PingFang SC;fontSize=24;fontColor=#243447;spacing=10;" value="按原 caseID 查询卷宗&lt;br&gt;保留对应原 token" vertex="1">
+          <mxGeometry height="105" width="420" x="90" y="455" as="geometry" />
+        </mxCell>
+        <mxCell id="B2" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#B89542;strokeWidth=2;fontFamily=PingFang SC;fontSize=24;fontColor=#243447;spacing=10;" value="卷宗路标是否匹配&lt;br&gt;tag1=4、tag2=1015？" vertex="1">
+          <mxGeometry height="170" width="400" x="100" y="660" as="geometry" />
+        </mxCell>
+        <mxCell id="R1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#DEF0D3;strokeColor=#6B9A55;strokeWidth=2;fontFamily=PingFang SC;fontSize=24;fontColor=#243447;spacing=10;" value="① 众判封禁 4 列表&lt;br&gt;卷宗路标 4-1015" vertex="1">
+          <mxGeometry height="110" width="420" x="90" y="965" as="geometry" />
+        </mxCell>
+        <mxCell id="S1" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#888888;strokeWidth=2;fontFamily=PingFang SC;fontSize=24;fontColor=#243447;spacing=10;" value="跳过该封禁记录" vertex="1">
+          <mxGeometry height="80" width="270" x="570" y="705" as="geometry" />
+        </mxCell>
+        <mxCell id="C" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E7F0FB;strokeColor=#5D7FA6;strokeWidth=2;fontFamily=PingFang SC;fontSize=24;fontColor=#243447;spacing=10;" value="查询阻断记录&lt;br&gt;动作 1115" vertex="1">
+          <mxGeometry height="95" width="440" x="1130" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="C1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E7F0FB;strokeColor=#5D7FA6;strokeWidth=2;fontFamily=PingFang SC;fontSize=24;fontColor=#243447;spacing=10;" value="按原 caseID 查询卷宗&lt;br&gt;核对原处置动作，保留原 token" vertex="1">
+          <mxGeometry height="105" width="510" x="1095" y="455" as="geometry" />
+        </mxCell>
+        <mxCell id="G" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#B89542;strokeWidth=2;fontFamily=PingFang SC;fontSize=24;fontColor=#243447;spacing=10;" value="卷宗路标是否匹配&lt;br&gt;tag1=16、tag2=1105？" vertex="1">
+          <mxGeometry height="170" width="400" x="1150" y="660" as="geometry" />
+        </mxCell>
+        <mxCell id="D" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#B89542;strokeWidth=2;fontFamily=PingFang SC;fontSize=24;fontColor=#243447;spacing=10;" value="主则是否为&lt;br&gt;80377？" vertex="1">
+          <mxGeometry height="160" width="350" x="955" y="950" as="geometry" />
+        </mxCell>
+        <mxCell id="H" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#B89542;strokeWidth=2;fontFamily=PingFang SC;fontSize=24;fontColor=#243447;spacing=10;" value="主则是否为&lt;br&gt;20101？" vertex="1">
+          <mxGeometry height="160" width="350" x="1580" y="950" as="geometry" />
+        </mxCell>
+        <mxCell id="F" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#B89542;strokeWidth=2;fontFamily=PingFang SC;fontSize=24;fontColor=#243447;spacing=10;" value="细则是否为&lt;br&gt;803410？" vertex="1">
+          <mxGeometry height="160" width="350" x="955" y="1230" as="geometry" />
+        </mxCell>
+        <mxCell id="R3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#DEF0D3;strokeColor=#6B9A55;strokeWidth=2;fontFamily=PingFang SC;fontSize=24;fontColor=#243447;spacing=10;" value="③ 大禹阻断 1115 列表&lt;br&gt;路标 16-1105&lt;br&gt;主则 80377＋细则 803410" vertex="1">
+          <mxGeometry height="140" width="470" x="890" y="1510" as="geometry" />
+        </mxCell>
+        <mxCell id="R4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#DEF0D3;strokeColor=#6B9A55;strokeWidth=2;fontFamily=PingFang SC;fontSize=24;fontColor=#243447;spacing=10;" value="④ 大禹阻断 1115 列表&lt;br&gt;路标 16-1105&lt;br&gt;主则 20101，细则不限" vertex="1">
+          <mxGeometry height="140" width="470" x="1520" y="1230" as="geometry" />
+        </mxCell>
+        <mxCell id="J" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E7F0FB;strokeColor=#5D7FA6;strokeWidth=2;fontFamily=PingFang SC;fontSize=24;fontColor=#243447;spacing=10;" value="剩余 1115 记录" vertex="1">
+          <mxGeometry height="90" width="400" x="1540" y="1535" as="geometry" />
+        </mxCell>
+        <mxCell id="K" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E7F0FB;strokeColor=#5D7FA6;strokeWidth=2;fontFamily=PingFang SC;fontSize=24;fontColor=#243447;spacing=10;" value="取得卷宗信息&lt;br&gt;本次已查询结果直接复用" vertex="1">
+          <mxGeometry height="105" width="460" x="1510" y="1725" as="geometry" />
+        </mxCell>
+        <mxCell id="L" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#B89542;strokeWidth=2;fontFamily=PingFang SC;fontSize=24;fontColor=#243447;spacing=10;" value="卷宗路标是否匹配&lt;br&gt;tag1=4、tag2=1015？" vertex="1">
+          <mxGeometry height="170" width="400" x="1540" y="1920" as="geometry" />
+        </mxCell>
+        <mxCell id="R2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#DEF0D3;strokeColor=#6B9A55;strokeWidth=2;fontFamily=PingFang SC;fontSize=24;fontColor=#243447;spacing=10;" value="② 众判阻断 1115 列表&lt;br&gt;卷宗路标 4-1015" vertex="1">
+          <mxGeometry height="110" width="460" x="1510" y="2195" as="geometry" />
+        </mxCell>
+        <mxCell id="S2" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#888888;strokeWidth=2;fontFamily=PingFang SC;fontSize=24;fontColor=#243447;spacing=10;" value="跳过该阻断记录" vertex="1">
+          <mxGeometry height="80" width="310" x="1050" y="1965" as="geometry" />
+        </mxCell>
+        <mxCell id="label-4" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;fontFamily=PingFang SC;fontSize=22;fontColor=#243447;fillColor=#ffffff;strokeColor=none;" value="是" vertex="1">
+          <mxGeometry height="37.7" width="40.9" x="303.55" y="876.15" as="geometry" />
+        </mxCell>
+        <mxCell id="label-5" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;fontFamily=PingFang SC;fontSize=22;fontColor=#243447;fillColor=#ffffff;strokeColor=none;" value="否" vertex="1">
+          <mxGeometry height="37.7" width="40.9" x="514.55" y="696.15" as="geometry" />
+        </mxCell>
+        <mxCell id="label-8" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;fontFamily=PingFang SC;fontSize=22;fontColor=#243447;fillColor=#ffffff;strokeColor=none;" value="是" vertex="1">
+          <mxGeometry height="37.7" width="40.9" x="1356.55" y="841.15" as="geometry" />
+        </mxCell>
+        <mxCell id="label-9" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;fontFamily=PingFang SC;fontSize=22;fontColor=#243447;fillColor=#ffffff;strokeColor=none;" value="否" vertex="1">
+          <mxGeometry height="37.7" width="40.9" x="1619.55" y="693.15" as="geometry" />
+        </mxCell>
+        <mxCell id="label-10" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;fontFamily=PingFang SC;fontSize=22;fontColor=#243447;fillColor=#ffffff;strokeColor=none;" value="是" vertex="1">
+          <mxGeometry height="37.7" width="40.9" x="1136.55" y="1151.15" as="geometry" />
+        </mxCell>
+        <mxCell id="label-11" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;fontFamily=PingFang SC;fontSize=22;fontColor=#243447;fillColor=#ffffff;strokeColor=none;" value="否" vertex="1">
+          <mxGeometry height="37.7" width="40.9" x="1414.55" y="981.15" as="geometry" />
+        </mxCell>
+        <mxCell id="label-12" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;fontFamily=PingFang SC;fontSize=22;fontColor=#243447;fillColor=#ffffff;strokeColor=none;" value="是" vertex="1">
+          <mxGeometry height="37.7" width="40.9" x="1137.55" y="1431.15" as="geometry" />
+        </mxCell>
+        <mxCell id="label-13" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;fontFamily=PingFang SC;fontSize=22;fontColor=#243447;fillColor=#ffffff;strokeColor=none;" value="否" vertex="1">
+          <mxGeometry height="37.7" width="40.9" x="1354.55" y="1261.15" as="geometry" />
+        </mxCell>
+        <mxCell id="label-14" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;fontFamily=PingFang SC;fontSize=22;fontColor=#243447;fillColor=#ffffff;strokeColor=none;" value="是" vertex="1">
+          <mxGeometry height="37.7" width="40.9" x="1761.55" y="1151.15" as="geometry" />
+        </mxCell>
+        <mxCell id="label-15" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;fontFamily=PingFang SC;fontSize=22;fontColor=#243447;fillColor=#ffffff;strokeColor=none;" value="否" vertex="1">
+          <mxGeometry height="37.7" width="40.9" x="1969.55" y="981.15" as="geometry" />
+        </mxCell>
+        <mxCell id="label-18" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;fontFamily=PingFang SC;fontSize=22;fontColor=#243447;fillColor=#ffffff;strokeColor=none;" value="是" vertex="1">
+          <mxGeometry height="37.7" width="40.9" x="1747.55" y="2125.15" as="geometry" />
+        </mxCell>
+        <mxCell id="label-19" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;fontFamily=PingFang SC;fontSize=22;fontColor=#243447;fillColor=#ffffff;strokeColor=none;" value="否" vertex="1">
+          <mxGeometry height="37.7" width="40.9" x="1429.55" y="1956.15" as="geometry" />
+        </mxCell>
+        <mxCell id="A-B" edge="1" parent="1" source="A" style="edgeStyle=none;noEdgeStyle=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#586779;strokeWidth=2;endArrow=block;endFill=1;dashed=0;exitX=0.5;exitY=1.0;entryX=0.5;entryY=0.0;exitPerimeter=0;entryPerimeter=0;" target="B" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1030" y="220" />
+              <mxPoint x="300" y="220" />
+            </Array>
+            <mxPoint x="1030" y="175" as="sourcePoint" />
+            <mxPoint x="300" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A-C" edge="1" parent="1" source="A" style="edgeStyle=none;noEdgeStyle=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#586779;strokeWidth=2;endArrow=block;endFill=1;dashed=0;exitX=0.5;exitY=1.0;entryX=0.5;entryY=0.0;exitPerimeter=0;entryPerimeter=0;" target="C" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1030" y="220" />
+              <mxPoint x="1350" y="220" />
+            </Array>
+            <mxPoint x="1030" y="175" as="sourcePoint" />
+            <mxPoint x="1350" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B-B1" edge="1" parent="1" source="B" style="edgeStyle=none;noEdgeStyle=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#586779;strokeWidth=2;endArrow=block;endFill=1;dashed=0;exitX=0.5;exitY=1.0;entryX=0.5;entryY=0.0;exitPerimeter=0;entryPerimeter=0;" target="B1" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="300" y="365" as="sourcePoint" />
+            <mxPoint x="300" y="455" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B1-B2" edge="1" parent="1" source="B1" style="edgeStyle=none;noEdgeStyle=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#586779;strokeWidth=2;endArrow=block;endFill=1;dashed=0;exitX=0.5;exitY=1.0;entryX=0.5;entryY=0.0;exitPerimeter=0;entryPerimeter=0;" target="B2" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="300" y="560" as="sourcePoint" />
+            <mxPoint x="300" y="660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B2-R1" edge="1" parent="1" source="B2" style="edgeStyle=none;noEdgeStyle=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#586779;strokeWidth=2;endArrow=block;endFill=1;dashed=0;exitX=0.5;exitY=1.0;entryX=0.5;entryY=0.0;exitPerimeter=0;entryPerimeter=0;" target="R1" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="300" y="830" as="sourcePoint" />
+            <mxPoint x="300" y="965" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B2-S1" edge="1" parent="1" source="B2" style="edgeStyle=none;noEdgeStyle=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#586779;strokeWidth=2;endArrow=block;endFill=1;dashed=0;exitX=1.0;exitY=0.5;entryX=0.0;entryY=0.5;exitPerimeter=0;entryPerimeter=0;" target="S1" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="500" y="745" as="sourcePoint" />
+            <mxPoint x="570" y="745" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C-C1" edge="1" parent="1" source="C" style="edgeStyle=none;noEdgeStyle=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#586779;strokeWidth=2;endArrow=block;endFill=1;dashed=0;exitX=0.5;exitY=1.0;entryX=0.5;entryY=0.0;exitPerimeter=0;entryPerimeter=0;" target="C1" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1350" y="365" as="sourcePoint" />
+            <mxPoint x="1350" y="455" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C1-G" edge="1" parent="1" source="C1" style="edgeStyle=none;noEdgeStyle=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#586779;strokeWidth=2;endArrow=block;endFill=1;dashed=0;exitX=0.5;exitY=1.0;entryX=0.5;entryY=0.0;exitPerimeter=0;entryPerimeter=0;" target="G" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1350" y="560" as="sourcePoint" />
+            <mxPoint x="1350" y="660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G-D" edge="1" parent="1" source="G" style="edgeStyle=none;noEdgeStyle=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#586779;strokeWidth=2;endArrow=block;endFill=1;dashed=0;exitX=0.5;exitY=1.0;entryX=0.5;entryY=0.0;exitPerimeter=0;entryPerimeter=0;" target="D" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1350" y="885" />
+              <mxPoint x="1130" y="885" />
+            </Array>
+            <mxPoint x="1350" y="830" as="sourcePoint" />
+            <mxPoint x="1130" y="950" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G-J" edge="1" parent="1" source="G" style="edgeStyle=none;noEdgeStyle=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#586779;strokeWidth=2;endArrow=block;endFill=1;dashed=0;exitX=1.0;exitY=0.5;entryX=1.0;entryY=0.5;exitPerimeter=0;entryPerimeter=0;" target="J" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2140" y="745" />
+              <mxPoint x="2140" y="1580" />
+            </Array>
+            <mxPoint x="1550" y="745" as="sourcePoint" />
+            <mxPoint x="1940" y="1580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D-F" edge="1" parent="1" source="D" style="edgeStyle=none;noEdgeStyle=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#586779;strokeWidth=2;endArrow=block;endFill=1;dashed=0;exitX=0.5;exitY=1.0;entryX=0.5;entryY=0.0;exitPerimeter=0;entryPerimeter=0;" target="F" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1130" y="1110" as="sourcePoint" />
+            <mxPoint x="1130" y="1230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D-H" edge="1" parent="1" source="D" style="edgeStyle=none;noEdgeStyle=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#586779;strokeWidth=2;endArrow=block;endFill=1;dashed=0;exitX=1.0;exitY=0.5;entryX=0.0;entryY=0.5;exitPerimeter=0;entryPerimeter=0;" target="H" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1305" y="1030" as="sourcePoint" />
+            <mxPoint x="1580" y="1030" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F-R3" edge="1" parent="1" source="F" style="edgeStyle=none;noEdgeStyle=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#586779;strokeWidth=2;endArrow=block;endFill=1;dashed=0;exitX=0.5;exitY=1.0;entryX=0.5106382978723404;entryY=0.0;exitPerimeter=0;entryPerimeter=0;" target="R3" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1130" y="1390" as="sourcePoint" />
+            <mxPoint x="1130" y="1510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F-J" edge="1" parent="1" source="F" style="edgeStyle=none;noEdgeStyle=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#586779;strokeWidth=2;endArrow=block;endFill=1;dashed=0;exitX=1.0;exitY=0.5;entryX=0.0;entryY=0.5;exitPerimeter=0;entryPerimeter=0;" target="J" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1440" y="1310" />
+              <mxPoint x="1440" y="1580" />
+            </Array>
+            <mxPoint x="1305" y="1310" as="sourcePoint" />
+            <mxPoint x="1540" y="1580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="H-R4" edge="1" parent="1" source="H" style="edgeStyle=none;noEdgeStyle=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#586779;strokeWidth=2;endArrow=block;endFill=1;dashed=0;exitX=0.5;exitY=1.0;entryX=0.5;entryY=0.0;exitPerimeter=0;entryPerimeter=0;" target="R4" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1755" y="1110" as="sourcePoint" />
+            <mxPoint x="1755" y="1230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="H-J" edge="1" parent="1" source="H" style="edgeStyle=none;noEdgeStyle=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#586779;strokeWidth=2;endArrow=block;endFill=1;dashed=0;exitX=1.0;exitY=0.5;entryX=0.5;entryY=0.0;exitPerimeter=0;entryPerimeter=0;" target="J" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2040" y="1030" />
+              <mxPoint x="2040" y="1470" />
+              <mxPoint x="1740" y="1470" />
+            </Array>
+            <mxPoint x="1930" y="1030" as="sourcePoint" />
+            <mxPoint x="1740" y="1535" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J-K" edge="1" parent="1" source="J" style="edgeStyle=none;noEdgeStyle=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#586779;strokeWidth=2;endArrow=block;endFill=1;dashed=0;exitX=0.5;exitY=1.0;entryX=0.5;entryY=0.0;exitPerimeter=0;entryPerimeter=0;" target="K" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1740" y="1625" as="sourcePoint" />
+            <mxPoint x="1740" y="1725" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K-L" edge="1" parent="1" source="K" style="edgeStyle=none;noEdgeStyle=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#586779;strokeWidth=2;endArrow=block;endFill=1;dashed=0;exitX=0.5;exitY=1.0;entryX=0.5;entryY=0.0;exitPerimeter=0;entryPerimeter=0;" target="L" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1740" y="1830" as="sourcePoint" />
+            <mxPoint x="1740" y="1920" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L-R2" edge="1" parent="1" source="L" style="edgeStyle=none;noEdgeStyle=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#586779;strokeWidth=2;endArrow=block;endFill=1;dashed=0;exitX=0.5;exitY=1.0;entryX=0.5;entryY=0.0;exitPerimeter=0;entryPerimeter=0;" target="R2" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1740" y="2090" as="sourcePoint" />
+            <mxPoint x="1740" y="2195" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L-S2" edge="1" parent="1" source="L" style="edgeStyle=none;noEdgeStyle=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#586779;strokeWidth=2;endArrow=block;endFill=1;dashed=0;exitX=0.0;exitY=0.5;entryX=1.0;entryY=0.5;exitPerimeter=0;entryPerimeter=0;" target="S2" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1540" y="2005" as="sourcePoint" />
+            <mxPoint x="1360" y="2005" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
